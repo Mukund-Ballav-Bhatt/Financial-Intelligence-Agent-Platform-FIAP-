@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "name": "Rahul Sharma",
+    "age": 28,
+    "gender": "Male",
+    "disease": "Diabetes",
+    "admitted": true
+  },
+  {
+    "id": 2,
+    "name": "Priya Verma",
+    "age": 34,
+    "gender": "Female",
+    "disease": "Hypertension",
+    "admitted": false
+  },
+  {
+    "id": 3,
+    "name": "Amit Singh",
+    "age": 45,
+    "gender": "Male",
+    "disease": "Asthma",
+    "admitted": true
+  },
+  {
+    "id": 4,
+    "name": "Neha Patel",
+    "age": 22,
+    "gender": "Female",
+    "disease": "Migraine",
+    "admitted": false
+  },
+  {
+    "id": 5,
+    "name": "Rohit Kumar",
+    "age": 60,
+    "gender": "Male",
+    "disease": "Heart Disease",
+    "admitted": true
+  }
+]
