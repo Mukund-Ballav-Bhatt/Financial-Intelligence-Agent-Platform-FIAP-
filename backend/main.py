@@ -1,41 +1,37 @@
 from fastapi import FastAPI
-import json
-from pydantic import BaseModel
+from backend.agents.market_agent import get_market_data
+from backend.agents.news_agent import get_news
+from backend.agents.sentiment_agent import get_sentiment
 
-app=FastAPI()
+app = FastAPI()
 
+@app.get("/market")
+def market(ticker: str):
+    return get_market_data(ticker)
 
-class Patient(BaseModel):
-    id:int
-    name:str
-    age:int
-    gender:str
-    disease:str
-    admitted:bool
+@app.get("/news")
+def news(ticker: str):
+    return get_news(ticker)
 
+@app.get("/sentiment")
+def sentiment(ticker: str):
+    news_data = get_news(ticker)
+    return get_sentiment(news_data)
 
-def load_data():
-    with open('patients.json','r') as f:
-        data=json.load(f)
-    return data    
+@app.get("/report")
+def report(ticker: str):
+    market_data = get_market_data(ticker)
+    news_data = get_news(ticker)
+    sentiment_data = get_sentiment(news_data)
 
+    final_report = {
+        "stock_metrics": market_data,
+        "news": news_data,
+        "sentiment": sentiment_data,
+        "summary": f"{ticker} shows {sentiment_data['label']} sentiment with price {market_data['price']}."
+    }
+
+    return final_report
 @app.get("/")
-def hello():
-    return {'message':'I hate'}
-
-@app.get('/about')
-def about():
-    return {'message':'I love MBB'}
-
-@app.get('/view')
-def view():
-    data= load_data()
-    return data
-
-@app.get('/patient/id')
-def view_patient(id: int):
-    data= load_data()
-
-    if id in data:
-        return data[id]
-    return {'error':'patient not found'}
+def home():
+    return {"message": "Financial Intelligence API Running 🚀"}
