@@ -166,12 +166,3 @@ passed_tests = 0
 
 print_success("Configuration loaded successfully")
 print_info("Check each test above for details")
-
-print(f"\n{Colors.BOLD}Next Steps:{Colors.END}")
-print("   1. If any warnings appeared, fix them")
-print("   2. Make sure your .env file has the API key")
-print("   3. Proceed to Step 3: Database Schema Design")
-
-print(f"\n{Colors.GREEN}{'=' * 60}{Colors.END}")
-print(f"{Colors.BOLD}{Colors.GREEN}✅ STEP 2 COMPLETE!{Colors.END}")
-print(f"{Colors.GREEN}{'=' * 60}{Colors.END}")
