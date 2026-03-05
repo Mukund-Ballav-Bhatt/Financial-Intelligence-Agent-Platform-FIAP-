@@ -31,7 +31,7 @@ CREATE TABLE IF NOT EXISTS stock_prices (
 
     currency TEXT DEFAULT 'USD',
     data_source TEXT DEFAULT 'yfinance'
-)
+);
 
 CREATE TABLE IF NOT EXISTS news_articles (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
