@@ -1,0 +1,37 @@
+2026-03-10 11:59:29 - config - INFO - ==================================================
+2026-03-10 11:59:29 - config - INFO - ==================================================
+2026-03-10 11:59:29 - config - INFO - Project root: d:\Projects\Financial-Intelligence-Agent-Platform-FIAP-\data
+2026-03-10 11:59:29 - config - INFO - Database: d:\Projects\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-10 11:59:29 - config - INFO - Tracking 5 stocks: GOOGL, AAPL, AMZN, TSLA, MSFT
+2026-03-10 11:59:29 - __main__ - INFO - Database path is  : d:\Projects\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-10 11:59:42 - config - INFO - ==================================================
+2026-03-10 11:59:42 - config - INFO - ==================================================
+2026-03-10 11:59:42 - config - INFO - Project root: d:\Projects\Financial-Intelligence-Agent-Platform-FIAP-\data
+2026-03-10 11:59:42 - config - INFO - Database: d:\Projects\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-10 11:59:42 - config - INFO - Tracking 5 stocks: GOOGL, AAPL, AMZN, TSLA, MSFT
+2026-03-10 11:59:42 - __main__ - INFO - Database path is  : d:\Projects\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-10 11:59:42 - __main__ - ERROR - Connection Failed : 'method' object does not support the context manager protocol (missed __exit__ method)
+2026-03-10 12:02:27 - config - INFO - ==================================================
+2026-03-10 12:02:27 - config - INFO -  Financial Data Service Configuration Loaded
+2026-03-10 12:02:27 - config - INFO - ==================================================
+2026-03-10 12:02:27 - config - INFO - Project root: d:\Projects\Financial-Intelligence-Agent-Platform-FIAP-\data
+2026-03-10 12:02:27 - config - INFO - Database: d:\Projects\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-10 12:02:27 - config - INFO - Tracking 5 stocks: GOOGL, AAPL, AMZN, TSLA, MSFT
+2026-03-10 12:02:27 - __main__ - INFO - Database path is  : d:\Projects\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-10 12:02:27 - __main__ - ERROR - Connection Failed : 'method' object does not support the context manager protocol (missed __exit__ method)
+2026-03-10 12:04:05 - config - INFO - ==================================================
+2026-03-10 12:04:05 - config - INFO -  Financial Data Service Configuration Loaded
+2026-03-10 12:04:05 - config - INFO - ==================================================
+2026-03-10 12:04:05 - config - INFO - Project root: d:\Projects\Financial-Intelligence-Agent-Platform-FIAP-\data
+2026-03-10 12:04:05 - config - INFO - Database: d:\Projects\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-10 12:04:05 - config - INFO - Tracking 5 stocks: GOOGL, AAPL, AMZN, TSLA, MSFT
+2026-03-10 12:04:05 - __main__ - INFO - Database path is  : d:\Projects\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-10 12:04:05 - __main__ - ERROR - Connection Failed : 'DatabaseManager' object has no attribute 'db_path'
+2026-03-10 12:05:26 - config - INFO - ==================================================
+2026-03-10 12:05:26 - config - INFO -  Financial Data Service Configuration Loaded
+2026-03-10 12:05:26 - config - INFO - ==================================================
+2026-03-10 12:05:26 - config - INFO - Project root: d:\Projects\Financial-Intelligence-Agent-Platform-FIAP-\data
+2026-03-10 12:05:26 - config - INFO - Database: d:\Projects\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-10 12:05:26 - config - INFO - Tracking 5 stocks: GOOGL, AAPL, AMZN, TSLA, MSFT
+2026-03-10 12:05:26 - __main__ - INFO - Database path is  : d:\Projects\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-10 12:05:26 - __main__ - INFO - Database connection test successful
