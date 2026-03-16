@@ -1,9 +1,9 @@
-from stock_news_fetcher.stock_fetcher import get_stock_data
-from stock_news_fetcher.news_fetcher import get_news
+from tools.stock_fetcher import get_stock_data
+from tools.news_fetcher import get_news
 
 
 
-from agents.report_agent_rules import ReportAgent
+from agents.report_agent import ReportAgent
 from agents.analysis_agent import AnalysisAgent
 from agents.sentiment_agent import SentimentAgent
 from agents.strategy_agent import StrategyAgent
