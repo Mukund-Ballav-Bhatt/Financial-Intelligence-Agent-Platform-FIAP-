@@ -116,3 +116,13 @@
 2026-03-17 00:46:44,685 - INFO - Indicators calculated
 2026-03-17 00:46:44,686 - INFO - Sentiment calculated
 2026-03-17 00:46:44,686 - INFO - Report generated
+2026-03-17 01:08:45,678 - INFO - Starting analysis for AAPL
+2026-03-17 01:08:46,993 - INFO - Stock data fetched
+2026-03-17 01:08:48,801 - INFO - Indicators calculated
+2026-03-17 01:08:48,802 - INFO - Sentiment calculated
+2026-03-17 01:08:48,802 - INFO - Report generated
+2026-03-17 01:14:47,202 - INFO - Starting analysis for AAPL
+2026-03-17 01:14:47,877 - INFO - Stock data fetched
+2026-03-17 01:14:49,258 - INFO - Indicators calculated
+2026-03-17 01:14:49,259 - INFO - Sentiment calculated
+2026-03-17 01:14:49,259 - INFO - Report generated
