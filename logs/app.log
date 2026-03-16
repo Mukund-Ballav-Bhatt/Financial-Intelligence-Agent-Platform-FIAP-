@@ -1,0 +1,118 @@
+2026-03-16 23:29:56,588 - INFO - Starting analysis for AAPL
+2026-03-16 23:30:02,863 - INFO - Stock data fetched
+2026-03-16 23:30:04,561 - INFO - Indicators calculated
+2026-03-16 23:30:04,561 - INFO - Sentiment calculated
+2026-03-16 23:30:04,561 - INFO - Report generated successfully
+2026-03-16 23:34:12,931 - INFO - Starting analysis for {ticker}
+2026-03-16 23:34:15,670 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: {TICKER}"}}}
+2026-03-16 23:34:16,818 - ERROR - ${TICKER}: possibly delisted; no price data found  (period=1mo) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-16 23:34:33,793 - INFO - Starting analysis for AAPL
+2026-03-16 23:34:34,131 - INFO - Stock data fetched
+2026-03-16 23:34:35,488 - INFO - Indicators calculated
+2026-03-16 23:34:35,489 - INFO - Sentiment calculated
+2026-03-16 23:34:35,489 - INFO - Report generated successfully
+2026-03-16 23:40:31,417 - INFO - Starting analysis for AAPL
+2026-03-16 23:40:33,038 - INFO - Stock data fetched
+2026-03-16 23:40:34,957 - INFO - Indicators calculated
+2026-03-16 23:40:34,957 - INFO - Sentiment calculated
+2026-03-16 23:40:34,957 - INFO - Report generated successfully
+2026-03-16 23:44:18,921 - INFO - Starting analysis for AAPL
+2026-03-16 23:44:20,917 - INFO - Stock data fetched
+2026-03-16 23:44:22,865 - INFO - Indicators calculated
+2026-03-16 23:44:22,865 - INFO - Sentiment calculated
+2026-03-16 23:44:22,865 - INFO - Report generated successfully
+2026-03-16 23:45:01,321 - INFO - Starting analysis for TSLA
+2026-03-16 23:45:01,534 - INFO - Stock data fetched
+2026-03-16 23:45:03,525 - INFO - Indicators calculated
+2026-03-16 23:45:03,526 - INFO - Sentiment calculated
+2026-03-16 23:45:03,526 - INFO - Report generated successfully
+2026-03-16 23:54:35,076 - INFO - Starting analysis for GOOG
+2026-03-16 23:54:36,221 - INFO - Stock data fetched
+2026-03-16 23:54:37,340 - INFO - Indicators calculated
+2026-03-16 23:54:37,340 - INFO - Sentiment calculated
+2026-03-16 23:54:37,341 - INFO - Report generated successfully
+2026-03-16 23:55:53,066 - INFO - Starting analysis for RELIANCE.NS
+2026-03-16 23:55:53,346 - INFO - Stock data fetched
+2026-03-16 23:55:55,246 - INFO - Indicators calculated
+2026-03-16 23:55:55,246 - INFO - Sentiment calculated
+2026-03-16 23:55:55,246 - INFO - Report generated successfully
+2026-03-17 00:10:39,650 - INFO - Starting analysis for AAPL
+2026-03-17 00:10:41,533 - INFO - Stock data fetched
+2026-03-17 00:10:43,967 - INFO - Indicators calculated
+2026-03-17 00:10:43,967 - INFO - Sentiment calculated
+2026-03-17 00:10:43,967 - INFO - Report generated
+2026-03-17 00:21:06,426 - INFO - Starting analysis for AAPL
+2026-03-17 00:21:08,044 - INFO - Stock data fetched
+2026-03-17 00:21:10,413 - INFO - Indicators calculated
+2026-03-17 00:21:10,414 - INFO - Sentiment calculated
+2026-03-17 00:21:10,414 - INFO - Report generated
+2026-03-17 00:22:48,755 - INFO - Starting analysis for AAPL
+2026-03-17 00:22:50,356 - INFO - Stock data fetched
+2026-03-17 00:22:53,670 - INFO - Indicators calculated
+2026-03-17 00:22:53,670 - INFO - Sentiment calculated
+2026-03-17 00:22:53,672 - INFO - Report generated
+2026-03-17 00:24:45,236 - INFO - Starting analysis for TSLA
+2026-03-17 00:24:45,420 - INFO - Stock data fetched
+2026-03-17 00:24:46,688 - INFO - Indicators calculated
+2026-03-17 00:24:46,688 - INFO - Sentiment calculated
+2026-03-17 00:24:46,688 - INFO - Report generated
+2026-03-17 00:27:17,971 - INFO - Starting analysis for TSLA
+2026-03-17 00:27:19,226 - INFO - Stock data fetched
+2026-03-17 00:27:20,559 - INFO - Indicators calculated
+2026-03-17 00:27:20,559 - INFO - Sentiment calculated
+2026-03-17 00:27:20,560 - INFO - Report generated
+2026-03-17 00:27:43,592 - INFO - Starting analysis for AAPL
+2026-03-17 00:27:43,854 - INFO - Stock data fetched
+2026-03-17 00:27:45,147 - INFO - Indicators calculated
+2026-03-17 00:27:45,147 - INFO - Sentiment calculated
+2026-03-17 00:27:45,147 - INFO - Report generated
+2026-03-17 00:34:22,753 - INFO - Starting analysis for AAPL
+2026-03-17 00:34:29,702 - INFO - Stock data fetched
+2026-03-17 00:34:31,265 - INFO - Indicators calculated
+2026-03-17 00:34:31,265 - INFO - Sentiment calculated
+2026-03-17 00:34:31,265 - INFO - Report generated
+2026-03-17 00:34:43,071 - INFO - Starting analysis for AAPL
+2026-03-17 00:34:43,299 - INFO - Stock data fetched
+2026-03-17 00:34:44,647 - INFO - Indicators calculated
+2026-03-17 00:34:44,647 - INFO - Sentiment calculated
+2026-03-17 00:34:44,647 - INFO - Report generated
+2026-03-17 00:42:16,694 - INFO - Starting analysis for AAPL
+2026-03-17 00:42:18,034 - INFO - Stock data fetched
+2026-03-17 00:42:19,534 - INFO - Indicators calculated
+2026-03-17 00:42:19,534 - INFO - Sentiment calculated
+2026-03-17 00:42:19,534 - INFO - Report generated
+2026-03-17 00:42:25,960 - INFO - Starting analysis for AAPL
+2026-03-17 00:42:26,140 - INFO - Stock data fetched
+2026-03-17 00:42:27,514 - INFO - Indicators calculated
+2026-03-17 00:42:27,514 - INFO - Sentiment calculated
+2026-03-17 00:42:27,514 - INFO - Report generated
+2026-03-17 00:42:39,952 - INFO - Starting analysis for TSLA
+2026-03-17 00:42:40,143 - INFO - Stock data fetched
+2026-03-17 00:42:41,480 - INFO - Indicators calculated
+2026-03-17 00:42:41,480 - INFO - Sentiment calculated
+2026-03-17 00:42:41,480 - INFO - Report generated
+2026-03-17 00:42:56,011 - INFO - Starting analysis for GOOGL
+2026-03-17 00:42:56,224 - INFO - Stock data fetched
+2026-03-17 00:42:57,593 - INFO - Indicators calculated
+2026-03-17 00:42:57,593 - INFO - Sentiment calculated
+2026-03-17 00:42:57,593 - INFO - Report generated
+2026-03-17 00:43:14,863 - INFO - Starting analysis for TSLA
+2026-03-17 00:43:15,048 - INFO - Stock data fetched
+2026-03-17 00:43:16,411 - INFO - Indicators calculated
+2026-03-17 00:43:16,411 - INFO - Sentiment calculated
+2026-03-17 00:43:16,411 - INFO - Report generated
+2026-03-17 00:46:06,247 - INFO - Starting analysis for AAPL
+2026-03-17 00:46:07,530 - INFO - Stock data fetched
+2026-03-17 00:46:08,818 - INFO - Indicators calculated
+2026-03-17 00:46:08,818 - INFO - Sentiment calculated
+2026-03-17 00:46:08,818 - INFO - Report generated
+2026-03-17 00:46:25,676 - INFO - Starting analysis for TSLA
+2026-03-17 00:46:25,869 - INFO - Stock data fetched
+2026-03-17 00:46:27,210 - INFO - Indicators calculated
+2026-03-17 00:46:27,210 - INFO - Sentiment calculated
+2026-03-17 00:46:27,211 - INFO - Report generated
+2026-03-17 00:46:43,082 - INFO - Starting analysis for GOOGL
+2026-03-17 00:46:43,330 - INFO - Stock data fetched
+2026-03-17 00:46:44,685 - INFO - Indicators calculated
+2026-03-17 00:46:44,686 - INFO - Sentiment calculated
+2026-03-17 00:46:44,686 - INFO - Report generated

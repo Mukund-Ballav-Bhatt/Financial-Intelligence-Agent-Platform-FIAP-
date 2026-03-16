@@ -18,6 +18,11 @@ class Signal(BaseModel):
     signal: str
 
 
+class ChartPoint(BaseModel):
+    day: str
+    price: float
+
+
 class StockAnalysisResponse(BaseModel):
     ticker: str
     price: float
@@ -26,3 +31,4 @@ class StockAnalysisResponse(BaseModel):
     signal: Signal
     news: List[str]
     report: str
+    chart: List[ChartPoint]

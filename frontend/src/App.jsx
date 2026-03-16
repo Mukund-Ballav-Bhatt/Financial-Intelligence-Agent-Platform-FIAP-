@@ -30,21 +30,13 @@ try {
 setLoading(true);
 
 const response = await axios.get(
-`http://localhost:8000/report?ticker=${ticker}`
+`http://127.0.0.1:8000/analyze/${ticker}`
 );
 
 setData(response.data);
 
-/* Sample chart data */
-const sampleChart = [
-{ day: "Mon", price: 100 },
-{ day: "Tue", price: 105 },
-{ day: "Wed", price: 102 },
-{ day: "Thu", price: 108 },
-{ day: "Fri", price: 110 }
-];
-
-setChartData(sampleChart);
+/* Get real chart data from backend */
+setChartData(response.data.chart || []);
 
 setLoading(false);
 
@@ -64,9 +56,11 @@ return (
 
 <header className="header">
 
-<h1>📊 AI Financial Intelligence Platform</h1>
+<h1>AI Financial Intelligence Platform</h1>
 
-<p>AI powered stock analysis, sentiment detection and market intelligence</p>
+<p>
+AI powered stock analysis, sentiment detection and market intelligence
+</p>
 
 </header>
 
@@ -85,7 +79,7 @@ onChange={(e) => setTicker(e.target.value)}
 
 </div>
 
-{/* Show welcome section before search */}
+{/* Welcome section */}
 
 {!data && (
 
@@ -114,10 +108,17 @@ onChange={(e) => setTicker(e.target.value)}
 
 <>
 
+{/* AI REPORT */}
+
 <div className="card">
-<h2>AI Summary</h2>
-<p>{data.summary}</p>
+
+<h2>AI Stock Report</h2>
+
+<pre>{data.report}</pre>
+
 </div>
+
+{/* CHART */}
 
 <div className="chartBox">
 
@@ -135,7 +136,12 @@ onChange={(e) => setTicker(e.target.value)}
 
 <Tooltip />
 
-<Line type="monotone" dataKey="price" stroke="#2563eb" strokeWidth={3} />
+<Line
+type="monotone"
+dataKey="price"
+stroke="#2563eb"
+strokeWidth={3}
+/>
 
 </LineChart>
 
@@ -143,16 +149,31 @@ onChange={(e) => setTicker(e.target.value)}
 
 </div>
 
+{/* DASHBOARD */}
+
 <div className="dashboard">
 
 <div className="card">
+
 <h2>Stock Metrics</h2>
-<pre>{JSON.stringify(data.stock_metrics, null, 2)}</pre>
+
+<p><b>Ticker:</b> {data.ticker}</p>
+<p><b>Price:</b> ${data.price}</p>
+<p><b>RSI:</b> {data.indicators?.RSI}</p>
+<p><b>Moving Avg (14):</b> {data.indicators?.MA14}</p>
+<p><b>Volatility:</b> {data.indicators?.volatility}</p>
+<p><b>Signal:</b> {data.signal?.signal}</p>
+
 </div>
 
 <div className="card">
+
 <h2>Market Sentiment</h2>
-<pre>{JSON.stringify(data.sentiment, null, 2)}</pre>
+
+<p><b>Sentiment:</b> {data.sentiment?.sentiment}</p>
+<p><b>Score:</b> {data.sentiment?.score}</p>
+<p><b>Articles Analyzed:</b> {data.sentiment?.articles_analyzed}</p>
+
 </div>
 
 </div>
