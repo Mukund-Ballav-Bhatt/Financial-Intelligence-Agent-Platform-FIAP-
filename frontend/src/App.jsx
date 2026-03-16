@@ -71,6 +71,11 @@ type="text"
 placeholder="Search Stock (AAPL, TSLA, MSFT)"
 value={ticker}
 onChange={(e) => setTicker(e.target.value)}
+onKeyDown={(e) => {
+  if (e.key === "Enter") {
+    analyzeStock();
+  }
+}}
 />
 
 <button onClick={analyzeStock}>
