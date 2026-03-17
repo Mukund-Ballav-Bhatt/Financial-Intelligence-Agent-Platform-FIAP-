@@ -103,7 +103,7 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 logger.info("=" * 50)
-logger.info("🚀 Financial Data Service Configuration Loaded")
+logger.info(" Financial Data Service Configuration Loaded")
 logger.info("=" * 50)
 logger.info(f"Project root: {PROJECT_ROOT}")
 logger.info(f"Database: {DB_PATH}")

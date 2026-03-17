@@ -1,0 +1,283 @@
+2026-03-11 07:18:06 - config - INFO - ==================================================
+2026-03-11 07:18:06 - config - INFO -  Financial Data Service Configuration Loaded
+2026-03-11 07:18:06 - config - INFO - ==================================================
+2026-03-11 07:18:06 - config - INFO - Project root: d:\Projects\Financial-Intelligence-Agent-Platform-FIAP-\data
+2026-03-11 07:18:06 - config - INFO - Database: d:\Projects\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-11 07:18:06 - config - INFO - Tracking 5 stocks: GOOGL, AAPL, AMZN, TSLA, MSFT
+2026-03-11 07:18:06 - __main__ - INFO - Database path is  : d:\Projects\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-11 07:18:06 - __main__ - INFO - Database connection test successful
+2026-03-11 07:18:20 - config - INFO - ==================================================
+2026-03-11 07:18:20 - config - INFO -  Financial Data Service Configuration Loaded
+2026-03-11 07:18:20 - config - INFO - ==================================================
+2026-03-11 07:18:20 - config - INFO - Project root: d:\Projects\Financial-Intelligence-Agent-Platform-FIAP-\data
+2026-03-11 07:18:20 - config - INFO - Database: d:\Projects\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-11 07:18:20 - config - INFO - Tracking 5 stocks: GOOGL, AAPL, AMZN, TSLA, MSFT
+2026-03-11 07:18:20 - __main__ - INFO - Database path is  : d:\Projects\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-11 07:18:20 - __main__ - INFO - Database connection test successful
+2026-03-11 07:18:20 - __main__ - ERROR - Error in initialising database : {e}
+2026-03-11 07:19:29 - config - INFO - ==================================================
+2026-03-11 07:19:29 - config - INFO -  Financial Data Service Configuration Loaded
+2026-03-11 07:19:29 - config - INFO - ==================================================
+2026-03-11 07:19:29 - config - INFO - Project root: d:\Projects\Financial-Intelligence-Agent-Platform-FIAP-\data
+2026-03-11 07:19:29 - config - INFO - Database: d:\Projects\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-11 07:19:29 - config - INFO - Tracking 5 stocks: GOOGL, AAPL, AMZN, TSLA, MSFT
+2026-03-11 07:19:29 - __main__ - INFO - Database path is  : d:\Projects\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-11 07:19:29 - __main__ - INFO - Database connection test successful
+2026-03-11 07:19:29 - __main__ - ERROR - Error in initialising database : {e}
+2026-03-11 07:20:03 - config - INFO - ==================================================
+2026-03-11 07:20:03 - config - INFO -  Financial Data Service Configuration Loaded
+2026-03-11 07:20:03 - config - INFO - ==================================================
+2026-03-11 07:20:03 - config - INFO - Project root: d:\Projects\Financial-Intelligence-Agent-Platform-FIAP-\data
+2026-03-11 07:20:03 - config - INFO - Database: d:\Projects\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-11 07:20:03 - config - INFO - Tracking 5 stocks: GOOGL, AAPL, AMZN, TSLA, MSFT
+2026-03-11 07:20:03 - __main__ - INFO - Database path is  : d:\Projects\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-11 07:20:03 - __main__ - INFO - Database connection test successful
+2026-03-11 07:20:03 - __main__ - INFO - Database initialised with all tables
+2026-03-11 07:22:21 - config - INFO - ==================================================
+2026-03-11 07:22:21 - config - INFO -  Financial Data Service Configuration Loaded
+2026-03-11 07:22:21 - config - INFO - ==================================================
+2026-03-11 07:22:21 - config - INFO - Project root: d:\Projects\Financial-Intelligence-Agent-Platform-FIAP-\data
+2026-03-11 07:22:21 - config - INFO - Database: d:\Projects\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-11 07:22:21 - config - INFO - Tracking 5 stocks: GOOGL, AAPL, AMZN, TSLA, MSFT
+2026-03-11 07:22:21 - __main__ - INFO - Database path is  : d:\Projects\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-11 07:22:21 - __main__ - INFO - Database connection test successful
+2026-03-11 07:22:21 - __main__ - ERROR - schema.sql not found at d:\Projects\Financial-Intelligence-Agent-Platform-FIAP-\data\database.py\schema.sql
+2026-03-11 07:23:15 - config - INFO - ==================================================
+2026-03-11 07:23:15 - config - INFO -  Financial Data Service Configuration Loaded
+2026-03-11 07:23:15 - config - INFO - ==================================================
+2026-03-11 07:23:15 - config - INFO - Project root: d:\Projects\Financial-Intelligence-Agent-Platform-FIAP-\data
+2026-03-11 07:23:15 - config - INFO - Database: d:\Projects\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-11 07:23:15 - config - INFO - Tracking 5 stocks: GOOGL, AAPL, AMZN, TSLA, MSFT
+2026-03-11 07:23:15 - __main__ - INFO - Database path is  : d:\Projects\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-11 07:23:15 - __main__ - INFO - Database connection test successful
+2026-03-11 07:23:15 - __main__ - INFO - Database initialised with all tables
+2026-03-11 09:30:57 - config - INFO - ==================================================
+2026-03-11 09:30:57 - config - INFO -  Financial Data Service Configuration Loaded
+2026-03-11 09:30:57 - config - INFO - ==================================================
+2026-03-11 09:30:57 - config - INFO - Project root: d:\Projects\Financial-Intelligence-Agent-Platform-FIAP-\data
+2026-03-11 09:30:57 - config - INFO - Database: d:\Projects\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-11 09:30:57 - config - INFO - Tracking 5 stocks: GOOGL, AAPL, AMZN, TSLA, MSFT
+2026-03-11 09:30:57 - __main__ - INFO - Database path is  : d:\Projects\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-11 09:30:57 - __main__ - INFO - Database connection test successful
+2026-03-11 09:30:57 - __main__ - INFO - Database initialised with all tables
+2026-03-11 09:31:21 - config - INFO - ==================================================
+2026-03-11 09:31:21 - config - INFO -  Financial Data Service Configuration Loaded
+2026-03-11 09:31:21 - config - INFO - ==================================================
+2026-03-11 09:31:21 - config - INFO - Project root: d:\Projects\Financial-Intelligence-Agent-Platform-FIAP-\data
+2026-03-11 09:31:21 - config - INFO - Database: d:\Projects\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-11 09:31:21 - config - INFO - Tracking 5 stocks: GOOGL, AAPL, AMZN, TSLA, MSFT
+2026-03-11 09:31:21 - __main__ - INFO - Database path is  : d:\Projects\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-11 09:31:21 - __main__ - INFO - Database connection test successful
+2026-03-11 09:31:21 - __main__ - INFO - Database initialised with all tables
+2026-03-11 09:31:21 - __main__ - ERROR - Database Connection Error : table stock_prices has no column named market_cap
+2026-03-11 09:31:21 - __main__ - ERROR - Failed to insert stock price for AAPL: table stock_prices has no column named market_cap
+2026-03-11 09:31:21 - __main__ - WARNING - No stock price found for AAPL
+2026-03-11 09:31:41 - config - INFO - ==================================================
+2026-03-11 09:31:41 - config - INFO -  Financial Data Service Configuration Loaded
+2026-03-11 09:31:41 - config - INFO - ==================================================
+2026-03-11 09:31:41 - config - INFO - Project root: d:\Projects\Financial-Intelligence-Agent-Platform-FIAP-\data
+2026-03-11 09:31:41 - config - INFO - Database: d:\Projects\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-11 09:31:41 - config - INFO - Tracking 5 stocks: GOOGL, AAPL, AMZN, TSLA, MSFT
+2026-03-11 09:31:41 - __main__ - INFO - Database path is  : d:\Projects\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-11 09:31:41 - __main__ - INFO - Database connection test successful
+2026-03-11 09:31:41 - __main__ - INFO - Database initialised with all tables
+2026-03-11 09:31:41 - __main__ - ERROR - Database Connection Error : table stock_prices has no column named market_cap
+2026-03-11 09:31:41 - __main__ - ERROR - Failed to insert stock price for AAPL: table stock_prices has no column named market_cap
+2026-03-11 09:31:41 - __main__ - WARNING - No stock price found for AAPL
+2026-03-11 09:31:41 - __main__ - ERROR - Failed to get price history for AAPL: Cannot operate on a closed database.
+2026-03-11 09:37:24 - config - INFO - ==================================================
+2026-03-11 09:37:24 - config - INFO -  Financial Data Service Configuration Loaded
+2026-03-11 09:37:24 - config - INFO - ==================================================
+2026-03-11 09:37:24 - config - INFO - Project root: d:\Projects\Financial-Intelligence-Agent-Platform-FIAP-\data
+2026-03-11 09:37:24 - config - INFO - Database: d:\Projects\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-11 09:37:24 - config - INFO - Tracking 5 stocks: GOOGL, AAPL, AMZN, TSLA, MSFT
+2026-03-11 09:37:24 - __main__ - INFO - Database path is  : d:\Projects\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-11 09:37:24 - __main__ - INFO - Database connection test successful
+2026-03-11 09:37:24 - __main__ - INFO - Database initialised with all tables
+2026-03-11 09:37:24 - __main__ - ERROR - Database Connection Error : table stock_prices has no column named market_cap
+2026-03-11 09:37:24 - __main__ - ERROR - Failed to insert stock price for AAPL: table stock_prices has no column named market_cap
+2026-03-11 09:37:24 - __main__ - WARNING - No stock price found for AAPL
+2026-03-11 09:37:24 - __main__ - ERROR - Failed to get price history for AAPL: Cannot operate on a closed database.
+2026-03-11 09:37:48 - config - INFO - ==================================================
+2026-03-11 09:37:48 - config - INFO -  Financial Data Service Configuration Loaded
+2026-03-11 09:37:48 - config - INFO - ==================================================
+2026-03-11 09:37:48 - config - INFO - Project root: d:\Projects\Financial-Intelligence-Agent-Platform-FIAP-\data
+2026-03-11 09:37:48 - config - INFO - Database: d:\Projects\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-11 09:37:48 - config - INFO - Tracking 5 stocks: GOOGL, AAPL, AMZN, TSLA, MSFT
+2026-03-11 09:37:48 - __main__ - INFO - Database path is  : d:\Projects\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-11 09:37:48 - __main__ - INFO - Database connection test successful
+2026-03-11 09:37:48 - __main__ - INFO - Database initialised with all tables
+2026-03-11 09:37:48 - __main__ - ERROR - Database Connection Error : table stock_prices has no column named market_cap
+2026-03-11 09:37:48 - __main__ - ERROR - Failed to insert stock price for AAPL: table stock_prices has no column named market_cap
+2026-03-11 09:37:48 - __main__ - WARNING - No stock price found for AAPL
+2026-03-11 09:37:48 - __main__ - ERROR - Failed to get price history for AAPL: Cannot operate on a closed database.
+2026-03-11 09:38:08 - config - INFO - ==================================================
+2026-03-11 09:38:08 - config - INFO -  Financial Data Service Configuration Loaded
+2026-03-11 09:38:08 - config - INFO - ==================================================
+2026-03-11 09:38:08 - config - INFO - Project root: d:\Projects\Financial-Intelligence-Agent-Platform-FIAP-\data
+2026-03-11 09:38:08 - config - INFO - Database: d:\Projects\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-11 09:38:08 - config - INFO - Tracking 5 stocks: GOOGL, AAPL, AMZN, TSLA, MSFT
+2026-03-11 09:38:08 - __main__ - INFO - Database path is  : d:\Projects\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-11 09:38:08 - __main__ - INFO - Database connection test successful
+2026-03-11 09:38:08 - __main__ - INFO - Database initialised with all tables
+2026-03-11 09:38:08 - __main__ - ERROR - Database Connection Error : table stock_prices has no column named pe_ratio
+2026-03-11 09:38:08 - __main__ - ERROR - Failed to insert stock price for AAPL: table stock_prices has no column named pe_ratio
+2026-03-11 09:38:08 - __main__ - WARNING - No stock price found for AAPL
+2026-03-11 09:38:08 - __main__ - ERROR - Failed to get price history for AAPL: Cannot operate on a closed database.
+2026-03-11 09:41:32 - config - INFO - ==================================================
+2026-03-11 09:41:32 - config - INFO -  Financial Data Service Configuration Loaded
+2026-03-11 09:41:32 - config - INFO - ==================================================
+2026-03-11 09:41:32 - config - INFO - Project root: d:\Projects\Financial-Intelligence-Agent-Platform-FIAP-\data
+2026-03-11 09:41:32 - config - INFO - Database: d:\Projects\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-11 09:41:32 - config - INFO - Tracking 5 stocks: GOOGL, AAPL, AMZN, TSLA, MSFT
+2026-03-11 09:41:32 - __main__ - INFO - Database path is  : d:\Projects\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-11 09:41:32 - __main__ - INFO - Database connection test successful
+2026-03-11 09:41:32 - __main__ - INFO - Database initialised with all tables
+2026-03-11 09:41:32 - __main__ - ERROR - Database Connection Error : table stock_prices has no column named pe_ratio
+2026-03-11 09:41:32 - __main__ - ERROR - Failed to insert stock price for AAPL: table stock_prices has no column named pe_ratio
+2026-03-11 09:41:32 - __main__ - WARNING - No stock price found for AAPL
+2026-03-11 09:41:32 - __main__ - ERROR - Failed to get price history for AAPL: Cannot operate on a closed database.
+2026-03-11 09:41:46 - config - INFO - ==================================================
+2026-03-11 09:41:46 - config - INFO -  Financial Data Service Configuration Loaded
+2026-03-11 09:41:46 - config - INFO - ==================================================
+2026-03-11 09:41:46 - config - INFO - Project root: d:\Projects\Financial-Intelligence-Agent-Platform-FIAP-\data
+2026-03-11 09:41:46 - config - INFO - Database: d:\Projects\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-11 09:41:46 - config - INFO - Tracking 5 stocks: GOOGL, AAPL, AMZN, TSLA, MSFT
+2026-03-11 09:41:46 - __main__ - INFO - Database path is  : d:\Projects\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-11 09:41:46 - __main__ - INFO - Database connection test successful
+2026-03-11 09:41:46 - __main__ - INFO - Database initialised with all tables
+2026-03-11 09:41:46 - __main__ - INFO - Inserted stock price for AAPL: $175.5 (ID: 1)
+2026-03-11 09:41:46 - __main__ - ERROR - Failed to get price history for AAPL: Cannot operate on a closed database.
+2026-03-11 09:44:07 - config - INFO - ==================================================
+2026-03-11 09:44:07 - config - INFO -  Financial Data Service Configuration Loaded
+2026-03-11 09:44:07 - config - INFO - ==================================================
+2026-03-11 09:44:07 - config - INFO - Project root: d:\Projects\Financial-Intelligence-Agent-Platform-FIAP-\data
+2026-03-11 09:44:07 - config - INFO - Database: d:\Projects\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-11 09:44:07 - config - INFO - Tracking 5 stocks: GOOGL, AAPL, AMZN, TSLA, MSFT
+2026-03-11 09:44:07 - __main__ - INFO - Database path is  : d:\Projects\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-11 09:44:07 - __main__ - INFO - Database connection test successful
+2026-03-11 09:44:07 - __main__ - INFO - Database initialised with all tables
+2026-03-11 09:44:07 - __main__ - INFO - Inserted stock price for AAPL: $175.5 (ID: 2)
+2026-03-11 09:44:07 - __main__ - ERROR - Failed to get price history for AAPL: Cannot operate on a closed database.
+2026-03-11 09:45:20 - config - INFO - ==================================================
+2026-03-11 09:45:20 - config - INFO -  Financial Data Service Configuration Loaded
+2026-03-11 09:45:20 - config - INFO - ==================================================
+2026-03-11 09:45:20 - config - INFO - Project root: d:\Projects\Financial-Intelligence-Agent-Platform-FIAP-\data
+2026-03-11 09:45:20 - config - INFO - Database: d:\Projects\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-11 09:45:20 - config - INFO - Tracking 5 stocks: GOOGL, AAPL, AMZN, TSLA, MSFT
+2026-03-11 09:45:20 - __main__ - INFO - Database path is  : d:\Projects\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-11 09:45:20 - __main__ - INFO - Database connection test successful
+2026-03-11 09:45:20 - __main__ - INFO - Database initialised with all tables
+2026-03-11 09:45:20 - __main__ - INFO - Inserted stock price for AAPL: $175.5 (ID: 3)
+2026-03-11 10:24:16 - config - INFO - ==================================================
+2026-03-11 10:24:16 - config - INFO -  Financial Data Service Configuration Loaded
+2026-03-11 10:24:16 - config - INFO - ==================================================
+2026-03-11 10:24:16 - config - INFO - Project root: d:\Projects\Financial-Intelligence-Agent-Platform-FIAP-\data
+2026-03-11 10:24:16 - config - INFO - Database: d:\Projects\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-11 10:24:16 - config - INFO - Tracking 5 stocks: GOOGL, AAPL, AMZN, TSLA, MSFT
+2026-03-11 10:27:37 - config - INFO - ==================================================
+2026-03-11 10:27:37 - config - INFO -  Financial Data Service Configuration Loaded
+2026-03-11 10:27:37 - config - INFO - ==================================================
+2026-03-11 10:27:37 - config - INFO - Project root: d:\Projects\Financial-Intelligence-Agent-Platform-FIAP-\data
+2026-03-11 10:27:37 - config - INFO - Database: d:\Projects\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-11 10:27:37 - config - INFO - Tracking 5 stocks: GOOGL, AAPL, AMZN, TSLA, MSFT
+2026-03-11 10:27:37 - __main__ - INFO - Database path is  : d:\Projects\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-11 10:27:37 - __main__ - INFO - Database connection test successful
+2026-03-11 10:27:37 - __main__ - INFO - Database initialised with all tables
+2026-03-11 10:27:37 - __main__ - INFO - Inserted stock price for AAPL: $175.5 (ID: 4)
+2026-03-11 10:27:51 - config - INFO - ==================================================
+2026-03-11 10:27:51 - config - INFO -  Financial Data Service Configuration Loaded
+2026-03-11 10:27:51 - config - INFO - ==================================================
+2026-03-11 10:27:51 - config - INFO - Project root: d:\Projects\Financial-Intelligence-Agent-Platform-FIAP-\data
+2026-03-11 10:27:51 - config - INFO - Database: d:\Projects\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-11 10:27:51 - config - INFO - Tracking 5 stocks: GOOGL, AAPL, AMZN, TSLA, MSFT
+2026-03-11 10:27:51 - __main__ - INFO - Database path is  : d:\Projects\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-11 10:27:51 - __main__ - INFO - Database connection test successful
+2026-03-11 10:27:51 - __main__ - INFO - Database initialised with all tables
+2026-03-11 10:27:51 - __main__ - INFO - Inserted stock price for AAPL: $175.5 (ID: 5)
+2026-03-11 10:28:14 - config - INFO - ==================================================
+2026-03-11 10:28:14 - config - INFO -  Financial Data Service Configuration Loaded
+2026-03-11 10:28:14 - config - INFO - ==================================================
+2026-03-11 10:28:14 - config - INFO - Project root: d:\Projects\Financial-Intelligence-Agent-Platform-FIAP-\data
+2026-03-11 10:28:14 - config - INFO - Database: d:\Projects\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-11 10:28:14 - config - INFO - Tracking 5 stocks: GOOGL, AAPL, AMZN, TSLA, MSFT
+2026-03-11 10:28:14 - __main__ - INFO - Database path is  : d:\Projects\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-11 10:28:14 - __main__ - INFO - Database connection test successful
+2026-03-11 10:28:14 - __main__ - INFO - Database initialised with all tables
+2026-03-11 10:28:14 - __main__ - INFO - Inserted stock price for AAPL: $175.5 (ID: 6)
+2026-03-11 10:28:14 - __main__ - INFO - Inserted news article for AAPL: Apple Announces New AI Features for iPhone... (ID: 1)
+2026-03-11 10:28:14 - __main__ - INFO - Inserted news article for AAPL: Apple Stock Rises on AI Announcement... (ID: 2)
+2026-03-11 10:28:14 - __main__ - ERROR - Database Connection Error : UNIQUE constraint failed: news_articles.url
+2026-03-11 10:53:53 - config - INFO - ==================================================
+2026-03-11 10:53:53 - config - INFO -  Financial Data Service Configuration Loaded
+2026-03-11 10:53:53 - config - INFO - ==================================================
+2026-03-11 10:53:53 - config - INFO - Project root: d:\Projects\Financial-Intelligence-Agent-Platform-FIAP-\data
+2026-03-11 10:53:53 - config - INFO - Database: d:\Projects\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-11 10:53:53 - config - INFO - Tracking 5 stocks: GOOGL, AAPL, AMZN, TSLA, MSFT
+2026-03-11 10:53:53 - __main__ - INFO - Database path is  : d:\Projects\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-11 10:53:53 - __main__ - INFO - Database connection test successful
+2026-03-11 10:53:53 - __main__ - INFO - Database initialised with all tables
+2026-03-11 10:53:53 - __main__ - INFO - Inserted stock price for AAPL: $175.5 (ID: 7)
+2026-03-11 10:53:53 - __main__ - ERROR - Database Connection Error : UNIQUE constraint failed: news_articles.url
+2026-03-11 10:53:53 - __main__ - ERROR - Database Connection Error : UNIQUE constraint failed: news_articles.url
+2026-03-11 10:53:53 - __main__ - ERROR - Database Connection Error : UNIQUE constraint failed: news_articles.url
+2026-03-11 10:55:14 - config - INFO - ==================================================
+2026-03-11 10:55:14 - config - INFO -  Financial Data Service Configuration Loaded
+2026-03-11 10:55:14 - config - INFO - ==================================================
+2026-03-11 10:55:14 - config - INFO - Project root: d:\Projects\Financial-Intelligence-Agent-Platform-FIAP-\data
+2026-03-11 10:55:14 - config - INFO - Database: d:\Projects\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-11 10:55:14 - config - INFO - Tracking 5 stocks: GOOGL, AAPL, AMZN, TSLA, MSFT
+2026-03-11 10:55:14 - __main__ - INFO - Database path is  : d:\Projects\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-11 10:55:14 - __main__ - INFO - Database connection test successful
+2026-03-11 10:55:14 - __main__ - INFO - Database initialised with all tables
+2026-03-11 10:55:14 - __main__ - INFO - Inserted stock price for AAPL: $175.5 (ID: 1)
+2026-03-11 10:55:14 - __main__ - INFO - Inserted news article for AAPL: Apple Announces New AI Features for iPhone... (ID: 1)
+2026-03-11 10:55:14 - __main__ - INFO - Inserted news article for AAPL: Apple Stock Rises on AI Announcement... (ID: 2)
+2026-03-11 10:55:14 - __main__ - ERROR - Database Connection Error : UNIQUE constraint failed: news_articles.url
+2026-03-11 11:16:50 - config - INFO - ==================================================
+2026-03-11 11:16:50 - config - INFO -  Financial Data Service Configuration Loaded
+2026-03-11 11:16:50 - config - INFO - ==================================================
+2026-03-11 11:16:50 - config - INFO - Project root: d:\Projects\Financial-Intelligence-Agent-Platform-FIAP-\data
+2026-03-11 11:16:50 - config - INFO - Database: d:\Projects\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-11 11:16:50 - config - INFO - Tracking 5 stocks: GOOGL, AAPL, AMZN, TSLA, MSFT
+2026-03-11 11:16:50 - __main__ - INFO - Database path is  : d:\Projects\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-11 11:16:50 - __main__ - INFO - Database connection test successful
+2026-03-11 11:16:50 - __main__ - INFO - Database initialised with all tables
+2026-03-11 11:16:50 - __main__ - INFO - Inserted stock price for AAPL: $175.5 (ID: 2)
+2026-03-11 11:16:50 - __main__ - ERROR - Database Connection Error : UNIQUE constraint failed: news_articles.url
+2026-03-11 11:16:50 - __main__ - ERROR - Database Connection Error : UNIQUE constraint failed: news_articles.url
+2026-03-11 11:16:50 - __main__ - ERROR - Database Connection Error : UNIQUE constraint failed: news_articles.url
+2026-03-11 11:16:50 - __main__ - INFO - Inserted sentiment for news_id 2: positive (0.92)
+2026-03-11 11:16:50 - __main__ - INFO - Inserted sentiment for news_id 1: positive (0.78)
+2026-03-11 11:16:50 - __main__ - ERROR - Database Connection Error : FOREIGN KEY constraint failed
+2026-03-11 11:16:50 - __main__ - ERROR - Invalid news_id 99999: Article does not exist
+2026-03-11 11:57:48 - config - INFO - ==================================================
+2026-03-11 11:57:48 - config - INFO -  Financial Data Service Configuration Loaded
+2026-03-11 11:57:48 - config - INFO - ==================================================
+2026-03-11 11:57:48 - config - INFO - Project root: d:\Projects\Financial-Intelligence-Agent-Platform-FIAP-\data
+2026-03-11 11:57:48 - config - INFO - Database: d:\Projects\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-11 11:57:48 - config - INFO - Tracking 5 stocks: GOOGL, AAPL, AMZN, TSLA, MSFT
+2026-03-11 12:00:14 - config - INFO - ==================================================
+2026-03-11 12:00:14 - config - INFO -  Financial Data Service Configuration Loaded
+2026-03-11 12:00:14 - config - INFO - ==================================================
+2026-03-11 12:00:14 - config - INFO - Project root: d:\Projects\Financial-Intelligence-Agent-Platform-FIAP-\data
+2026-03-11 12:00:14 - config - INFO - Database: d:\Projects\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-11 12:00:14 - config - INFO - Tracking 5 stocks: GOOGL, AAPL, AMZN, TSLA, MSFT
+2026-03-11 12:00:14 - database_lib.base - INFO - Database path is: None
+2026-03-11 12:00:14 - database_lib.base - ERROR - Connection Failed: expected str, bytes or os.PathLike object, not NoneType
+2026-03-11 12:04:30 - config - INFO - ==================================================
+2026-03-11 12:04:30 - config - INFO -  Financial Data Service Configuration Loaded
+2026-03-11 12:04:30 - config - INFO - ==================================================
+2026-03-11 12:04:30 - config - INFO - Project root: d:\Projects\Financial-Intelligence-Agent-Platform-FIAP-\data
+2026-03-11 12:04:30 - config - INFO - Database: d:\Projects\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-11 12:04:30 - config - INFO - Tracking 5 stocks: GOOGL, AAPL, AMZN, TSLA, MSFT
+2026-03-11 12:04:30 - database_lib.base - INFO - Database path is: d:\Projects\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-11 12:04:30 - database_lib.base - INFO - Database connection test successful
+2026-03-11 12:04:30 - database_lib.base - INFO - Loading schema from: d:\Projects\Financial-Intelligence-Agent-Platform-FIAP-\data\database_lib\schema.sql
+2026-03-11 12:04:30 - database_lib.base - ERROR - schema.sql not found at d:\Projects\Financial-Intelligence-Agent-Platform-FIAP-\data\database_lib\schema.sql
+2026-03-11 12:04:30 - database_lib.stocks_ops - INFO - Inserted stock price for AAPL: $175.5 (ID: 3)
+2026-03-11 12:04:30 - database_lib.base - ERROR - Database Connection Error: UNIQUE constraint failed: news_articles.url
+2026-03-11 12:04:30 - database_lib.base - ERROR - Database Connection Error: UNIQUE constraint failed: news_articles.url
+2026-03-11 12:04:30 - database_lib.base - ERROR - Database Connection Error: UNIQUE constraint failed: news_articles.url
+2026-03-11 12:04:30 - database_lib.report_ops - INFO - Inserted report for AAPL (ID: 1)
+2026-03-11 12:04:30 - database_lib.report_ops - INFO - Inserted report for AAPL (ID: 2)
