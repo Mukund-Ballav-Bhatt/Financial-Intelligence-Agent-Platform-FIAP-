@@ -1,0 +1,149 @@
+2026-03-17 09:27:21 - config - INFO - ==================================================
+2026-03-17 09:27:21 - config - INFO -  Financial Data Service Configuration Loaded
+2026-03-17 09:27:21 - config - INFO - ==================================================
+2026-03-17 09:27:21 - config - INFO - Project root: d:\Projects\Financial-Intelligence-Agent-Platform-FIAP-\data
+2026-03-17 09:27:21 - config - INFO - Database: d:\Projects\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-17 09:27:21 - config - INFO - Tracking 5 stocks: GOOGL, AAPL, AMZN, TSLA, MSFT
+2026-03-17 09:34:26 - config - INFO - ==================================================
+2026-03-17 09:34:26 - config - INFO -  Financial Data Service Configuration Loaded
+2026-03-17 09:34:26 - config - INFO - ==================================================
+2026-03-17 09:34:26 - config - INFO - Project root: d:\Projects\Financial-Intelligence-Agent-Platform-FIAP-\data
+2026-03-17 09:34:26 - config - INFO - Database: d:\Projects\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-17 09:34:26 - config - INFO - Tracking 5 stocks: GOOGL, AAPL, AMZN, TSLA, MSFT
+2026-03-17 09:35:38 - config - INFO - ==================================================
+2026-03-17 09:35:38 - config - INFO -  Financial Data Service Configuration Loaded
+2026-03-17 09:35:38 - config - INFO - ==================================================
+2026-03-17 09:35:38 - config - INFO - Project root: d:\Projects\Financial-Intelligence-Agent-Platform-FIAP-\data
+2026-03-17 09:35:38 - config - INFO - Database: d:\Projects\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-17 09:35:38 - config - INFO - Tracking 5 stocks: GOOGL, AAPL, AMZN, TSLA, MSFT
+2026-03-17 09:35:38 - database_lib.base - INFO - Database path is: d:\Projects\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-17 09:35:38 - stock_fetcher_lib.base - INFO - BaseStockFetcher initialized with database: d:\Projects\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-17 09:35:38 - stock_fetcher_lib.manager - INFO -  StockFetcher fully initialized with ALL operations:
+2026-03-17 09:35:38 - stock_fetcher_lib.manager - INFO -     Quote operations (current prices)
+2026-03-17 09:35:38 - stock_fetcher_lib.manager - INFO -     Historical operations (trends, moving averages)
+2026-03-17 09:35:38 - stock_fetcher_lib.manager - INFO -     Company operations (info, financials, analyst ratings)
+2026-03-17 09:35:38 - stock_fetcher_lib.manager - INFO -     Validator operations (symbol checking, suggestions)
+2026-03-17 09:35:38 - stock_fetcher_lib.base - ERROR -  yfinance connection failed: Failed to perform, curl: (6) Could not resolve host: guce.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-03-17 09:35:38 - stock_fetcher_lib.validator - INFO - Validating symbol: AAPL
+2026-03-17 09:35:38 - stock_fetcher_lib.validator - ERROR - Error validating AAPL: Failed to perform, curl: (6) Could not resolve host: guce.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-03-17 09:35:38 - stock_fetcher_lib.validator - INFO - Validating symbol: MSFT
+2026-03-17 09:35:38 - stock_fetcher_lib.validator - ERROR - Error validating MSFT: Failed to perform, curl: (6) Could not resolve host: guce.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-03-17 09:35:38 - stock_fetcher_lib.validator - INFO - Validating symbol: TCS.NS
+2026-03-17 09:35:38 - stock_fetcher_lib.validator - ERROR - Error validating TCS.NS: Failed to perform, curl: (6) Could not resolve host: guce.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-03-17 09:35:38 - stock_fetcher_lib.validator - INFO - Validating symbol: INVALID123
+2026-03-17 09:35:38 - stock_fetcher_lib.validator - ERROR - Error validating INVALID123: Failed to perform, curl: (6) Could not resolve host: guce.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-03-17 09:35:38 - stock_fetcher_lib.validator - INFO - Validating symbol: APPL
+2026-03-17 09:35:38 - stock_fetcher_lib.validator - ERROR - Error validating APPL: Failed to perform, curl: (6) Could not resolve host: guce.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-03-17 09:35:38 - stock_fetcher_lib.validator - INFO - Validating symbol: TCS
+2026-03-17 09:35:38 - stock_fetcher_lib.validator - ERROR - Error validating TCS: Failed to perform, curl: (6) Could not resolve host: guce.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-03-17 09:35:38 - stock_fetcher_lib.quotes - INFO - Fetching data for AAPL...
+2026-03-17 09:35:38 - stock_fetcher_lib.quotes - ERROR - Error fetching AAPL: Failed to perform, curl: (6) Could not resolve host: guce.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-03-17 09:35:38 - stock_fetcher_lib.quotes - INFO - Fetching data for TCS.NS...
+2026-03-17 09:35:38 - stock_fetcher_lib.quotes - ERROR - Error fetching TCS.NS: Failed to perform, curl: (6) Could not resolve host: guce.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-03-17 09:35:38 - stock_fetcher_lib.quotes - INFO - Fetching data for 3 stocks: ['AAPL', 'MSFT', 'GOOGL']
+2026-03-17 09:35:38 - stock_fetcher_lib.quotes - INFO - Processing 1/3: AAPL
+2026-03-17 09:35:38 - stock_fetcher_lib.quotes - INFO - Fetching data for AAPL...
+2026-03-17 09:35:38 - stock_fetcher_lib.quotes - ERROR - Error fetching AAPL: Failed to perform, curl: (6) Could not resolve host: guce.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-03-17 09:35:38 - stock_fetcher_lib.quotes - INFO - Processing 2/3: MSFT
+2026-03-17 09:35:38 - stock_fetcher_lib.quotes - INFO - Fetching data for MSFT...
+2026-03-17 09:35:38 - stock_fetcher_lib.quotes - ERROR - Error fetching MSFT: Failed to perform, curl: (6) Could not resolve host: guce.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-03-17 09:35:39 - stock_fetcher_lib.quotes - INFO - Processing 3/3: GOOGL
+2026-03-17 09:35:39 - stock_fetcher_lib.quotes - INFO - Fetching data for GOOGL...
+2026-03-17 09:35:39 - stock_fetcher_lib.quotes - ERROR - Error fetching GOOGL: Failed to perform, curl: (6) Could not resolve host: guce.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-03-17 09:35:39 - stock_fetcher_lib.quotes - INFO - Fetching data for 3 stocks: ['AAPL', 'TSLA', 'MSFT']
+2026-03-17 09:35:39 - stock_fetcher_lib.quotes - INFO - Processing 1/3: AAPL
+2026-03-17 09:35:39 - stock_fetcher_lib.quotes - INFO - Fetching data for AAPL...
+2026-03-17 09:35:39 - stock_fetcher_lib.quotes - ERROR - Error fetching AAPL: Failed to perform, curl: (6) Could not resolve host: guce.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-03-17 09:35:39 - stock_fetcher_lib.quotes - INFO - Processing 2/3: TSLA
+2026-03-17 09:35:39 - stock_fetcher_lib.quotes - INFO - Fetching data for TSLA...
+2026-03-17 09:35:39 - stock_fetcher_lib.quotes - ERROR - Error fetching TSLA: Failed to perform, curl: (6) Could not resolve host: guce.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-03-17 09:35:40 - stock_fetcher_lib.quotes - INFO - Processing 3/3: MSFT
+2026-03-17 09:35:40 - stock_fetcher_lib.quotes - INFO - Fetching data for MSFT...
+2026-03-17 09:35:40 - stock_fetcher_lib.quotes - ERROR - Error fetching MSFT: Failed to perform, curl: (6) Could not resolve host: guce.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-03-17 09:35:40 - stock_fetcher_lib.historical - INFO - Fetching historical data for AAPL (period=1mo, interval=1d)
+2026-03-17 09:35:40 - yfinance - ERROR - Failed to get ticker 'AAPL' reason: Failed to perform, curl: (6) Could not resolve host: guce.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-03-17 09:35:40 - stock_fetcher_lib.historical - ERROR - Error fetching historical data for AAPL: Failed to perform, curl: (6) Could not resolve host: guce.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-03-17 09:35:40 - stock_fetcher_lib.historical - WARNING - Not enough historical data for AAPL trend analysis
+2026-03-17 09:35:40 - stock_fetcher_lib.historical - INFO - Fetching historical data for AAPL (period=40d, interval=1d)
+2026-03-17 09:35:40 - yfinance - ERROR - Failed to get ticker 'AAPL' reason: Failed to perform, curl: (6) Could not resolve host: guce.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-03-17 09:35:40 - stock_fetcher_lib.historical - ERROR - Error fetching historical data for AAPL: Failed to perform, curl: (6) Could not resolve host: guce.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-03-17 09:35:40 - stock_fetcher_lib.historical - WARNING - Not enough data for 20-day moving average for AAPL
+2026-03-17 09:35:40 - stock_fetcher_lib.historical - INFO - Fetching historical data for AAPL (period=400d, interval=1d)
+2026-03-17 09:35:40 - yfinance - ERROR - Failed to get ticker 'AAPL' reason: Failed to perform, curl: (6) Could not resolve host: guce.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-03-17 09:35:40 - stock_fetcher_lib.historical - ERROR - Error fetching historical data for AAPL: 'NoneType' object is not subscriptable
+2026-03-17 09:35:40 - stock_fetcher_lib.company - INFO - Fetching company info for AAPL...
+2026-03-17 09:35:40 - stock_fetcher_lib.company - ERROR - Error fetching company info for AAPL: Failed to perform, curl: (6) Could not resolve host: guce.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-03-17 09:35:40 - stock_fetcher_lib.company - INFO - Fetching financials for AAPL...
+2026-03-17 09:35:40 - stock_fetcher_lib.company - ERROR - Error fetching financials for AAPL: Failed to perform, curl: (6) Could not resolve host: guce.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-03-17 09:35:40 - stock_fetcher_lib.company - INFO - Fetching analyst recommendations for AAPL...
+2026-03-17 09:35:40 - stock_fetcher_lib.company - ERROR - Error fetching recommendations for AAPL: Failed to perform, curl: (6) Could not resolve host: guce.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-03-17 09:35:40 - stock_fetcher_lib.manager - INFO -  Quick scanning 4 stocks...
+2026-03-17 09:35:40 - stock_fetcher_lib.quotes - INFO - Fetching data for AAPL...
+2026-03-17 09:35:40 - stock_fetcher_lib.quotes - ERROR - Error fetching AAPL: Failed to perform, curl: (6) Could not resolve host: guce.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-03-17 09:35:40 - stock_fetcher_lib.quotes - INFO - Fetching data for MSFT...
+2026-03-17 09:35:40 - stock_fetcher_lib.quotes - ERROR - Error fetching MSFT: Failed to perform, curl: (6) Could not resolve host: guce.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-03-17 09:35:40 - stock_fetcher_lib.quotes - INFO - Fetching data for GOOGL...
+2026-03-17 09:35:40 - stock_fetcher_lib.quotes - ERROR - Error fetching GOOGL: Failed to perform, curl: (6) Could not resolve host: guce.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-03-17 09:35:40 - stock_fetcher_lib.quotes - INFO - Fetching data for TSLA...
+2026-03-17 09:35:40 - stock_fetcher_lib.quotes - ERROR - Error fetching TSLA: Failed to perform, curl: (6) Could not resolve host: guce.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-03-17 09:35:40 - stock_fetcher_lib.manager - INFO -  Quick scan complete: found 0 stocks
+2026-03-17 09:35:40 - stock_fetcher_lib.quotes - INFO - Fetching data for 7 stocks: ['AAPL', 'MSFT', 'GOOGL', 'AMZN', 'TSLA', 'RELIANCE.NS', 'TCS.NS']
+2026-03-17 09:35:40 - stock_fetcher_lib.quotes - INFO - Processing 1/7: AAPL
+2026-03-17 09:35:40 - stock_fetcher_lib.quotes - INFO - Fetching data for AAPL...
+2026-03-17 09:35:40 - stock_fetcher_lib.quotes - ERROR - Error fetching AAPL: Failed to perform, curl: (6) Could not resolve host: guce.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-03-17 09:35:40 - stock_fetcher_lib.quotes - INFO - Processing 2/7: MSFT
+2026-03-17 09:35:40 - stock_fetcher_lib.quotes - INFO - Fetching data for MSFT...
+2026-03-17 09:35:40 - stock_fetcher_lib.quotes - ERROR - Error fetching MSFT: Failed to perform, curl: (6) Could not resolve host: guce.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-03-17 09:35:40 - stock_fetcher_lib.quotes - INFO - Processing 3/7: GOOGL
+2026-03-17 09:35:40 - stock_fetcher_lib.quotes - INFO - Fetching data for GOOGL...
+2026-03-17 09:35:40 - stock_fetcher_lib.quotes - ERROR - Error fetching GOOGL: Failed to perform, curl: (6) Could not resolve host: guce.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-03-17 09:35:41 - stock_fetcher_lib.quotes - INFO - Processing 4/7: AMZN
+2026-03-17 09:35:41 - stock_fetcher_lib.quotes - INFO - Fetching data for AMZN...
+2026-03-17 09:35:41 - stock_fetcher_lib.quotes - ERROR - Error fetching AMZN: Failed to perform, curl: (6) Could not resolve host: guce.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-03-17 09:35:41 - stock_fetcher_lib.quotes - INFO - Processing 5/7: TSLA
+2026-03-17 09:35:41 - stock_fetcher_lib.quotes - INFO - Fetching data for TSLA...
+2026-03-17 09:35:41 - stock_fetcher_lib.quotes - ERROR - Error fetching TSLA: Failed to perform, curl: (6) Could not resolve host: guce.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-03-17 09:35:41 - stock_fetcher_lib.quotes - INFO - Processing 6/7: RELIANCE.NS
+2026-03-17 09:35:41 - stock_fetcher_lib.quotes - INFO - Fetching data for RELIANCE.NS...
+2026-03-17 09:35:41 - stock_fetcher_lib.quotes - ERROR - Error fetching RELIANCE.NS: Failed to perform, curl: (6) Could not resolve host: guce.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-03-17 09:35:42 - stock_fetcher_lib.quotes - INFO - Processing 7/7: TCS.NS
+2026-03-17 09:35:42 - stock_fetcher_lib.quotes - INFO - Fetching data for TCS.NS...
+2026-03-17 09:35:42 - stock_fetcher_lib.quotes - ERROR - Error fetching TCS.NS: Failed to perform, curl: (6) Could not resolve host: guce.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-03-17 09:35:42 - stock_fetcher_lib.manager - INFO -  Building complete profile for AAPL...
+2026-03-17 09:35:42 - stock_fetcher_lib.validator - INFO - Validating symbol: AAPL
+2026-03-17 09:35:42 - stock_fetcher_lib.validator - ERROR - Error validating AAPL: Failed to perform, curl: (6) Could not resolve host: guce.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-03-17 09:35:42 - stock_fetcher_lib.manager - WARNING - Symbol AAPL may be invalid
+2026-03-17 09:35:42 - stock_fetcher_lib.validator - INFO - Validating symbol: AAPL
+2026-03-17 09:35:42 - stock_fetcher_lib.validator - ERROR - Error validating AAPL: Failed to perform, curl: (6) Could not resolve host: guce.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-03-17 09:35:42 - stock_fetcher_lib.manager - INFO - Did you mean: AAPL
+2026-03-17 09:35:42 - stock_fetcher_lib.validator - INFO - Validating symbol: AAPL
+2026-03-17 09:35:42 - stock_fetcher_lib.validator - ERROR - Error validating AAPL: Failed to perform, curl: (6) Could not resolve host: guce.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-03-17 09:35:42 - stock_fetcher_lib.validator - ERROR - Error getting exchange info for AAPL: Failed to perform, curl: (6) Could not resolve host: guce.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-03-17 09:35:42 - stock_fetcher_lib.manager - INFO -    Fetching current quote...
+2026-03-17 09:35:42 - stock_fetcher_lib.quotes - INFO - Fetching data for AAPL...
+2026-03-17 09:35:42 - stock_fetcher_lib.quotes - ERROR - Error fetching AAPL: Failed to perform, curl: (6) Could not resolve host: guce.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-03-17 09:35:42 - stock_fetcher_lib.manager - INFO -    Analyzing trends...
+2026-03-17 09:35:42 - stock_fetcher_lib.historical - INFO - Fetching historical data for AAPL (period=1mo, interval=1d)
+2026-03-17 09:35:42 - yfinance - ERROR - Failed to get ticker 'AAPL' reason: Failed to perform, curl: (6) Could not resolve host: guce.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-03-17 09:35:42 - stock_fetcher_lib.historical - ERROR - Error fetching historical data for AAPL: 'NoneType' object is not subscriptable
+2026-03-17 09:35:42 - stock_fetcher_lib.historical - WARNING - Not enough historical data for AAPL trend analysis
+2026-03-17 09:35:42 - stock_fetcher_lib.historical - INFO - Fetching historical data for AAPL (period=3mo, interval=1d)
+2026-03-17 09:35:42 - yfinance - ERROR - Failed to get ticker 'AAPL' reason: Failed to perform, curl: (6) Could not resolve host: guce.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-03-17 09:35:42 - stock_fetcher_lib.historical - ERROR - Error fetching historical data for AAPL: 'NoneType' object is not subscriptable
+2026-03-17 09:35:42 - stock_fetcher_lib.historical - WARNING - Not enough historical data for AAPL trend analysis
+2026-03-17 09:35:42 - stock_fetcher_lib.historical - INFO - Fetching historical data for AAPL (period=400d, interval=1d)
+2026-03-17 09:35:42 - yfinance - ERROR - Failed to get ticker 'AAPL' reason: Failed to perform, curl: (6) Could not resolve host: guce.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-03-17 09:35:42 - stock_fetcher_lib.historical - ERROR - Error fetching historical data for AAPL: 'NoneType' object is not subscriptable
+2026-03-17 09:35:42 - stock_fetcher_lib.manager - INFO -    Fetching company details...
+2026-03-17 09:35:42 - stock_fetcher_lib.company - INFO - Fetching company info for AAPL...
+2026-03-17 09:35:42 - stock_fetcher_lib.company - ERROR - Error fetching company info for AAPL: Failed to perform, curl: (6) Could not resolve host: guce.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-03-17 09:35:42 - stock_fetcher_lib.company - INFO - Fetching financials for AAPL...
+2026-03-17 09:35:42 - stock_fetcher_lib.company - ERROR - Error fetching financials for AAPL: Failed to perform, curl: (6) Could not resolve host: guce.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-03-17 09:35:42 - stock_fetcher_lib.company - INFO - Fetching financials for AAPL...
+2026-03-17 09:35:42 - stock_fetcher_lib.company - ERROR - Error fetching financials for AAPL: Failed to perform, curl: (6) Could not resolve host: guce.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-03-17 09:35:42 - stock_fetcher_lib.manager - INFO -    Checking analyst ratings...
+2026-03-17 09:35:42 - stock_fetcher_lib.company - INFO - Fetching analyst recommendations for AAPL...
+2026-03-17 09:35:42 - stock_fetcher_lib.company - ERROR - Error fetching recommendations for AAPL: Failed to perform, curl: (6) Could not resolve host: guce.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-03-17 09:35:42 - stock_fetcher_lib.manager - INFO -    Checking insider transactions...
+2026-03-17 09:35:42 - stock_fetcher_lib.company - ERROR - Error fetching insider transactions for AAPL: Failed to perform, curl: (6) Could not resolve host: guce.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-03-17 09:35:42 - stock_fetcher_lib.manager - INFO -  Complete profile built for AAPL
