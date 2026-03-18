@@ -35,7 +35,9 @@ class QuoteOperations(BaseStockFetcher):
                 'timestamp': datetime.now().isoformat()
             }
             
-            db_id = self.db.insert_stock_price(**stock_data)
+            stock_data_for_db = stock_data.copy()
+            stock_data_for_db.pop('timestamp', None)  # Remove timestamp field
+            db_id = self.db.insert_stock_price(**stock_data_for_db)
             
             if db_id:
                 logger.info(f"✅ Successfully fetched and stored {symbol}: ₹${current_price}")
