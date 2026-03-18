@@ -1,4 +1,5 @@
 from fastapi import FastAPI
+from fastapi import HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 
 from backend.agents.orchestrator import StockAnalysisPipeline
@@ -19,6 +20,8 @@ pipeline = StockAnalysisPipeline()
 @app.get("/")
 def home():
     return {"message": "AI Financial Stock Analyzer API"}
+
+
 
 @app.get("/analyze/{ticker}", response_model=StockAnalysisResponse)
 def analyze_stock(ticker: str):
