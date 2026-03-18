@@ -8,7 +8,7 @@ class StockOperations(DatabaseBase):
     
     def insert_stock_price(self, symbol, price, change=None, change_percent=None, 
                            volume=None, open=None, high=None, low=None, 
-                           market_cap=None, pe_ratio=None):
+                           market_cap=None, pe_ratio=None,timestamp=None):
         try:
             with self.connect_DB() as conn:
                 cursor = conn.cursor()
