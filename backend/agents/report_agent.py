@@ -1,38 +1,26 @@
 class ReportAgent:
 
-    def generate(self,ticker,price,indicators,sentiment):
-        rsi=indicators["RSI"]
-        ma=indicators["MA14"]
-        vol=indicators["volatility"]
+    def generate(self, ticker, price, indicators, sentiment, signal):
 
-        sentiment_label=sentiment["sentiment"]
-
-        if rsi<30:
-            recommendation="BUY"
-        elif rsi>70:
-            recommendation="SELL"
-        else:
-            recommendation="HOLD"
-
-        report=f"""
-        Stock Analysis Report
+        report = f"""
+Stock Analysis Report
 
 Ticker: {ticker}
 Current Price: ${price}
 
 Technical Indicators
-RSI: {round(rsi,2)}
-Moving Average (14): {round(ma,2)}
-Volatility: {round(vol,4)}
+RSI: {round(indicators['RSI'], 2)}
+Moving Average (14): {round(indicators['MA14'], 2)}
+Volatility: {round(indicators['volatility'], 4)}
 
-Market Sentiment: {sentiment_label}
+Market Sentiment: {sentiment['sentiment']}
 
-Recommendation: {recommendation}
+Recommendation: {signal['signal']}
 
 Summary:
-The stock currently shows an RSI of {round(rsi,2)} indicating momentum conditions.
-Market sentiment from recent news is {sentiment_label.lower()}.
-Based on the indicators, the system suggests a {recommendation} stance.
+The stock shows an RSI of {round(indicators['RSI'], 2)}.
+Market sentiment is {sentiment['sentiment'].lower()}.
+Final recommendation is {signal['signal']}.
 """
 
         return report

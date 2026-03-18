@@ -244,3 +244,126 @@
 2026-03-18 07:02:14 - stock_fetcher_lib.manager - INFO -    Checking insider transactions...
 2026-03-18 07:02:14 - stock_fetcher_lib.company - INFO - Retrieved 5 insider transactions for AAPL
 2026-03-18 07:02:14 - stock_fetcher_lib.manager - INFO -  Complete profile built for AAPL
+2026-03-18 07:22:12 - config - INFO - ==================================================
+2026-03-18 07:22:12 - config - INFO -  Financial Data Service Configuration Loaded
+2026-03-18 07:22:12 - config - INFO - ==================================================
+2026-03-18 07:22:12 - config - INFO - Project root: c:\Users\MUKUND\Desktop\Financial-Intelligence-Agent-Platform-FIAP-\data
+2026-03-18 07:22:12 - config - INFO - Database: c:\Users\MUKUND\Desktop\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-18 07:22:12 - config - INFO - Tracking 5 stocks: GOOGL, AAPL, AMZN, TSLA, MSFT
+2026-03-18 07:22:12 - database_lib.base - INFO - Database path is: c:\Users\MUKUND\Desktop\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-18 07:22:12 - stock_fetcher_lib.base - INFO - BaseStockFetcher initialized with database: c:\Users\MUKUND\Desktop\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-18 07:22:12 - stock_fetcher_lib.manager - INFO -  StockFetcher fully initialized with ALL operations:
+2026-03-18 07:22:12 - stock_fetcher_lib.manager - INFO -     Quote operations (current prices)
+2026-03-18 07:22:12 - stock_fetcher_lib.manager - INFO -     Historical operations (trends, moving averages)
+2026-03-18 07:22:12 - stock_fetcher_lib.manager - INFO -     Company operations (info, financials, analyst ratings)
+2026-03-18 07:22:12 - stock_fetcher_lib.manager - INFO -     Validator operations (symbol checking, suggestions)
+2026-03-18 07:22:15 - stock_fetcher_lib.base - INFO - yfinance connection successful
+2026-03-18 07:22:15 - stock_fetcher_lib.validator - INFO - Validating symbol: AAPL
+2026-03-18 07:22:15 - stock_fetcher_lib.validator - INFO - Validating symbol: MSFT
+2026-03-18 07:22:16 - stock_fetcher_lib.validator - INFO - Validating symbol: TCS.NS
+2026-03-18 07:22:16 - stock_fetcher_lib.validator - INFO - Validating symbol: INVALID123
+2026-03-18 07:22:17 - yfinance - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: INVALID123"}}}
+2026-03-18 07:22:19 - yfinance - ERROR - $INVALID123: possibly delisted; no price data found  (period=1d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-18 07:22:19 - stock_fetcher_lib.validator - INFO - Validating symbol: APPL
+2026-03-18 07:22:20 - yfinance - ERROR - $APPL: possibly delisted; no price data found  (period=1d)
+2026-03-18 07:22:20 - stock_fetcher_lib.validator - INFO - Validating symbol: TCS
+2026-03-18 07:22:23 - yfinance - ERROR - $TCS: possibly delisted; no price data found  (period=1d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-18 07:22:23 - stock_fetcher_lib.quotes - INFO - Fetching data for AAPL...
+2026-03-18 07:22:24 - database_lib.stocks_ops - INFO - Inserted stock price for AAPL: $254.23 (ID: 24)
+2026-03-18 07:22:24 - stock_fetcher_lib.quotes - INFO - Fetching data for TCS.NS...
+2026-03-18 07:22:24 - database_lib.stocks_ops - INFO - Inserted stock price for TCS.NS: $2391.7 (ID: 25)
+2026-03-18 07:22:24 - stock_fetcher_lib.quotes - INFO - Fetching data for 3 stocks: ['AAPL', 'MSFT', 'GOOGL']
+2026-03-18 07:22:24 - stock_fetcher_lib.quotes - INFO - Processing 1/3: AAPL
+2026-03-18 07:22:24 - stock_fetcher_lib.quotes - INFO - Fetching data for AAPL...
+2026-03-18 07:22:25 - database_lib.stocks_ops - INFO - Inserted stock price for AAPL: $254.23 (ID: 26)
+2026-03-18 07:22:25 - stock_fetcher_lib.quotes - INFO - Processing 2/3: MSFT
+2026-03-18 07:22:25 - stock_fetcher_lib.quotes - INFO - Fetching data for MSFT...
+2026-03-18 07:22:26 - database_lib.stocks_ops - INFO - Inserted stock price for MSFT: $399.41 (ID: 27)
+2026-03-18 07:22:26 - stock_fetcher_lib.quotes - INFO - Processing 3/3: GOOGL
+2026-03-18 07:22:26 - stock_fetcher_lib.quotes - INFO - Fetching data for GOOGL...
+2026-03-18 07:22:27 - database_lib.stocks_ops - INFO - Inserted stock price for GOOGL: $310.92 (ID: 28)
+2026-03-18 07:22:27 - stock_fetcher_lib.quotes - INFO - Fetching data for 3 stocks: ['AAPL', 'TSLA', 'MSFT']
+2026-03-18 07:22:27 - stock_fetcher_lib.quotes - INFO - Processing 1/3: AAPL
+2026-03-18 07:22:27 - stock_fetcher_lib.quotes - INFO - Fetching data for AAPL...
+2026-03-18 07:22:27 - database_lib.stocks_ops - INFO - Inserted stock price for AAPL: $254.23 (ID: 29)
+2026-03-18 07:22:28 - stock_fetcher_lib.quotes - INFO - Processing 2/3: TSLA
+2026-03-18 07:22:28 - stock_fetcher_lib.quotes - INFO - Fetching data for TSLA...
+2026-03-18 07:22:28 - database_lib.stocks_ops - INFO - Inserted stock price for TSLA: $399.27 (ID: 30)
+2026-03-18 07:22:29 - stock_fetcher_lib.quotes - INFO - Processing 3/3: MSFT
+2026-03-18 07:22:29 - stock_fetcher_lib.quotes - INFO - Fetching data for MSFT...
+2026-03-18 07:22:29 - database_lib.stocks_ops - INFO - Inserted stock price for MSFT: $399.41 (ID: 31)
+2026-03-18 07:22:29 - stock_fetcher_lib.historical - INFO - Fetching historical data for AAPL (period=1mo, interval=1d)
+2026-03-18 07:22:30 - stock_fetcher_lib.historical - INFO -  Retrieved 20 historical records for AAPL
+2026-03-18 07:22:30 - stock_fetcher_lib.historical - INFO -  Trend analysis for AAPL: 3.98% over 20 days
+2026-03-18 07:22:30 - stock_fetcher_lib.historical - INFO - Fetching historical data for AAPL (period=40d, interval=1d)
+2026-03-18 07:22:30 - stock_fetcher_lib.historical - INFO -  Retrieved 40 historical records for AAPL
+2026-03-18 07:22:30 - stock_fetcher_lib.historical - INFO -  20-day MA for AAPL: $262.521
+2026-03-18 07:22:30 - stock_fetcher_lib.historical - INFO - Fetching historical data for AAPL (period=400d, interval=1d)
+2026-03-18 07:22:30 - stock_fetcher_lib.historical - INFO -  Retrieved 400 historical records for AAPL
+2026-03-18 07:22:30 - stock_fetcher_lib.company - INFO - Fetching company info for AAPL...
+2026-03-18 07:22:31 - stock_fetcher_lib.company - INFO -  Retrieved company info for AAPL: Apple Inc.
+2026-03-18 07:22:31 - stock_fetcher_lib.company - INFO - Fetching financials for AAPL...
+2026-03-18 07:22:31 - stock_fetcher_lib.company - INFO -  Retrieved financials for AAPL
+2026-03-18 07:22:31 - stock_fetcher_lib.company - INFO - Fetching analyst recommendations for AAPL...
+2026-03-18 07:22:32 - stock_fetcher_lib.company - INFO -  Retrieved analyst data for AAPL
+2026-03-18 07:22:32 - stock_fetcher_lib.manager - INFO -  Quick scanning 4 stocks...
+2026-03-18 07:22:32 - stock_fetcher_lib.quotes - INFO - Fetching data for AAPL...
+2026-03-18 07:22:32 - database_lib.stocks_ops - INFO - Inserted stock price for AAPL: $254.23 (ID: 32)
+2026-03-18 07:22:32 - stock_fetcher_lib.quotes - INFO - Fetching data for MSFT...
+2026-03-18 07:22:33 - database_lib.stocks_ops - INFO - Inserted stock price for MSFT: $399.41 (ID: 33)
+2026-03-18 07:22:33 - stock_fetcher_lib.quotes - INFO - Fetching data for GOOGL...
+2026-03-18 07:22:33 - database_lib.stocks_ops - INFO - Inserted stock price for GOOGL: $310.92 (ID: 34)
+2026-03-18 07:22:33 - stock_fetcher_lib.quotes - INFO - Fetching data for TSLA...
+2026-03-18 07:22:34 - database_lib.stocks_ops - INFO - Inserted stock price for TSLA: $399.27 (ID: 35)
+2026-03-18 07:22:34 - stock_fetcher_lib.manager - INFO -  Quick scan complete: found 4 stocks
+2026-03-18 07:22:34 - stock_fetcher_lib.quotes - INFO - Fetching data for 7 stocks: ['AAPL', 'MSFT', 'GOOGL', 'AMZN', 'TSLA', 'RELIANCE.NS', 'TCS.NS']
+2026-03-18 07:22:34 - stock_fetcher_lib.quotes - INFO - Processing 1/7: AAPL
+2026-03-18 07:22:34 - stock_fetcher_lib.quotes - INFO - Fetching data for AAPL...
+2026-03-18 07:22:34 - database_lib.stocks_ops - INFO - Inserted stock price for AAPL: $254.23 (ID: 36)
+2026-03-18 07:22:35 - stock_fetcher_lib.quotes - INFO - Processing 2/7: MSFT
+2026-03-18 07:22:35 - stock_fetcher_lib.quotes - INFO - Fetching data for MSFT...
+2026-03-18 07:22:35 - database_lib.stocks_ops - INFO - Inserted stock price for MSFT: $399.41 (ID: 37)
+2026-03-18 07:22:35 - stock_fetcher_lib.quotes - INFO - Processing 3/7: GOOGL
+2026-03-18 07:22:35 - stock_fetcher_lib.quotes - INFO - Fetching data for GOOGL...
+2026-03-18 07:22:35 - database_lib.stocks_ops - INFO - Inserted stock price for GOOGL: $310.92 (ID: 38)
+2026-03-18 07:22:36 - stock_fetcher_lib.quotes - INFO - Processing 4/7: AMZN
+2026-03-18 07:22:36 - stock_fetcher_lib.quotes - INFO - Fetching data for AMZN...
+2026-03-18 07:22:36 - database_lib.stocks_ops - INFO - Inserted stock price for AMZN: $215.2 (ID: 39)
+2026-03-18 07:22:37 - stock_fetcher_lib.quotes - INFO - Processing 5/7: TSLA
+2026-03-18 07:22:37 - stock_fetcher_lib.quotes - INFO - Fetching data for TSLA...
+2026-03-18 07:22:37 - database_lib.stocks_ops - INFO - Inserted stock price for TSLA: $399.27 (ID: 40)
+2026-03-18 07:22:37 - stock_fetcher_lib.quotes - INFO - Processing 6/7: RELIANCE.NS
+2026-03-18 07:22:37 - stock_fetcher_lib.quotes - INFO - Fetching data for RELIANCE.NS...
+2026-03-18 07:22:38 - database_lib.stocks_ops - INFO - Inserted stock price for RELIANCE.NS: $1397.6 (ID: 41)
+2026-03-18 07:22:38 - stock_fetcher_lib.quotes - INFO - Processing 7/7: TCS.NS
+2026-03-18 07:22:38 - stock_fetcher_lib.quotes - INFO - Fetching data for TCS.NS...
+2026-03-18 07:22:39 - database_lib.stocks_ops - INFO - Inserted stock price for TCS.NS: $2391.7 (ID: 42)
+2026-03-18 07:22:39 - stock_fetcher_lib.manager - INFO -  Building complete profile for AAPL...
+2026-03-18 07:22:39 - stock_fetcher_lib.validator - INFO - Validating symbol: AAPL
+2026-03-18 07:22:39 - stock_fetcher_lib.validator - INFO - Validating symbol: AAPL
+2026-03-18 07:22:40 - stock_fetcher_lib.validator - INFO -  Exchange info for AAPL: NMS
+2026-03-18 07:22:40 - stock_fetcher_lib.manager - INFO -    Fetching current quote...
+2026-03-18 07:22:40 - stock_fetcher_lib.quotes - INFO - Fetching data for AAPL...
+2026-03-18 07:22:40 - database_lib.stocks_ops - INFO - Inserted stock price for AAPL: $254.23 (ID: 43)
+2026-03-18 07:22:40 - stock_fetcher_lib.manager - INFO -    Analyzing trends...
+2026-03-18 07:22:40 - stock_fetcher_lib.historical - INFO - Fetching historical data for AAPL (period=1mo, interval=1d)
+2026-03-18 07:22:41 - stock_fetcher_lib.historical - INFO -  Retrieved 20 historical records for AAPL
+2026-03-18 07:22:41 - stock_fetcher_lib.historical - INFO -  Trend analysis for AAPL: 3.98% over 20 days
+2026-03-18 07:22:41 - stock_fetcher_lib.historical - INFO - Fetching historical data for AAPL (period=3mo, interval=1d)
+2026-03-18 07:22:41 - stock_fetcher_lib.historical - INFO -  Retrieved 60 historical records for AAPL
+2026-03-18 07:22:41 - stock_fetcher_lib.historical - INFO -  Trend analysis for AAPL: 6.97% over 60 days
+2026-03-18 07:22:41 - stock_fetcher_lib.historical - INFO - Fetching historical data for AAPL (period=400d, interval=1d)
+2026-03-18 07:22:43 - stock_fetcher_lib.historical - INFO -  Retrieved 400 historical records for AAPL
+2026-03-18 07:22:43 - stock_fetcher_lib.manager - INFO -    Fetching company details...
+2026-03-18 07:22:43 - stock_fetcher_lib.company - INFO - Fetching company info for AAPL...
+2026-03-18 07:22:44 - stock_fetcher_lib.company - INFO -  Retrieved company info for AAPL: Apple Inc.
+2026-03-18 07:22:44 - stock_fetcher_lib.company - INFO - Fetching financials for AAPL...
+2026-03-18 07:22:44 - stock_fetcher_lib.company - INFO -  Retrieved financials for AAPL
+2026-03-18 07:22:44 - stock_fetcher_lib.company - INFO - Fetching financials for AAPL...
+2026-03-18 07:22:44 - stock_fetcher_lib.company - INFO -  Retrieved financials for AAPL
+2026-03-18 07:22:44 - stock_fetcher_lib.manager - INFO -    Checking analyst ratings...
+2026-03-18 07:22:44 - stock_fetcher_lib.company - INFO - Fetching analyst recommendations for AAPL...
+2026-03-18 07:22:45 - stock_fetcher_lib.company - INFO -  Retrieved analyst data for AAPL
+2026-03-18 07:22:45 - stock_fetcher_lib.manager - INFO -    Checking insider transactions...
+2026-03-18 07:22:45 - stock_fetcher_lib.company - INFO - Retrieved 5 insider transactions for AAPL
+2026-03-18 07:22:45 - stock_fetcher_lib.manager - INFO -  Complete profile built for AAPL

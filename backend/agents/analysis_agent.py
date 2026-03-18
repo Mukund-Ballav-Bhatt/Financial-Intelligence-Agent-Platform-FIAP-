@@ -30,8 +30,7 @@ class AnalysisAgent:
 
          return rsi.iloc[-1]
     
-    def analyse(self,stock_data):
-         prices=stock_data["prices"]
+    def analyse(self,prices):
 
          return{
               "RSI": float(self.rsi(prices)),
