@@ -1,7 +1,29 @@
+from backend.agents.llm_agent import generate_llm_report
+
 class ReportAgent:
 
-    def generate(self, ticker, price, indicators, sentiment, signal):
+    def generate(self, ticker, price, indicators, sentiment, signal, news_summary=""):
+        """Generate report using LLM first, fallback to template"""
 
+        # 🔥 STEP 1: Try LLM
+        llm_result = generate_llm_report(
+            ticker=ticker,
+            price=price,
+            change=0,  # you can improve this later
+            indicators={
+                "rsi": indicators.get("RSI"),
+                "ma14": indicators.get("MA14"),
+                "volatility": indicators.get("volatility"),
+            },
+            sentiment=sentiment,
+            signal=signal.get("signal") if isinstance(signal, dict) else signal,
+            news_summary=news_summary
+        )
+
+        if llm_result:
+            return llm_result
+        
+        
         report = f"""
 Stock Analysis Report
 

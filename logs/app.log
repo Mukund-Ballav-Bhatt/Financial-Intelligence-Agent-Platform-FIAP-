@@ -786,3 +786,528 @@
 2026-03-31 11:28:16,963 - INFO - Sentiment: {'sentiment': 'Positive', 'score': 0.125, 'articles_analyzed': 1}
 2026-03-31 11:28:16,963 - INFO - Signal: {'signal': 'HOLD'}
 2026-03-31 11:28:16,974 - INFO - Inserted report for TSLA (ID: 18)
+2026-03-31 12:02:09,016 - INFO - ==================================================
+2026-03-31 12:02:09,016 - INFO -  Financial Data Service Configuration Loaded
+2026-03-31 12:02:09,016 - INFO - ==================================================
+2026-03-31 12:02:09,016 - INFO - Project root: C:\Users\MUKUND\Desktop\Financial-Intelligence-Agent-Platform-FIAP-\data
+2026-03-31 12:02:09,017 - INFO - Database: C:\Users\MUKUND\Desktop\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-31 12:02:09,017 - INFO - Tracking 5 stocks: GOOGL, AAPL, AMZN, TSLA, MSFT
+2026-03-31 12:02:09,037 - INFO - Database path is: C:\Users\MUKUND\Desktop\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-31 12:02:09,037 - INFO - BaseStockFetcher initialized with database: C:\Users\MUKUND\Desktop\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-31 12:02:09,037 - INFO -  StockFetcher fully initialized with ALL operations:
+2026-03-31 12:02:09,037 - INFO -     Quote operations (current prices)
+2026-03-31 12:02:09,037 - INFO -     Historical operations (trends, moving averages)
+2026-03-31 12:02:09,037 - INFO -     Company operations (info, financials, analyst ratings)
+2026-03-31 12:02:09,037 - INFO -     Validator operations (symbol checking, suggestions)
+2026-03-31 12:02:09,037 - INFO - Database path is: C:\Users\MUKUND\Desktop\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-31 12:02:27,245 - INFO - ==================================================
+2026-03-31 12:02:27,245 - INFO -  Financial Data Service Configuration Loaded
+2026-03-31 12:02:27,246 - INFO - ==================================================
+2026-03-31 12:02:27,246 - INFO - Project root: C:\Users\MUKUND\Desktop\Financial-Intelligence-Agent-Platform-FIAP-\data
+2026-03-31 12:02:27,246 - INFO - Database: C:\Users\MUKUND\Desktop\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-31 12:02:27,246 - INFO - Tracking 5 stocks: GOOGL, AAPL, AMZN, TSLA, MSFT
+2026-03-31 12:02:27,267 - INFO - Database path is: C:\Users\MUKUND\Desktop\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-31 12:02:27,267 - INFO - BaseStockFetcher initialized with database: C:\Users\MUKUND\Desktop\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-31 12:02:27,267 - INFO -  StockFetcher fully initialized with ALL operations:
+2026-03-31 12:02:27,267 - INFO -     Quote operations (current prices)
+2026-03-31 12:02:27,267 - INFO -     Historical operations (trends, moving averages)
+2026-03-31 12:02:27,267 - INFO -     Company operations (info, financials, analyst ratings)
+2026-03-31 12:02:27,267 - INFO -     Validator operations (symbol checking, suggestions)
+2026-03-31 12:02:27,268 - INFO - Database path is: C:\Users\MUKUND\Desktop\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-31 12:03:00,286 - INFO - ==================================================
+2026-03-31 12:03:00,287 - INFO -  Financial Data Service Configuration Loaded
+2026-03-31 12:03:00,287 - INFO - ==================================================
+2026-03-31 12:03:00,287 - INFO - Project root: C:\Users\MUKUND\Desktop\Financial-Intelligence-Agent-Platform-FIAP-\data
+2026-03-31 12:03:00,287 - INFO - Database: C:\Users\MUKUND\Desktop\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-31 12:03:00,287 - INFO - Tracking 5 stocks: GOOGL, AAPL, AMZN, TSLA, MSFT
+2026-03-31 12:03:00,327 - INFO - Database path is: C:\Users\MUKUND\Desktop\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-31 12:03:00,328 - INFO - BaseStockFetcher initialized with database: C:\Users\MUKUND\Desktop\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-31 12:03:00,328 - INFO -  StockFetcher fully initialized with ALL operations:
+2026-03-31 12:03:00,328 - INFO -     Quote operations (current prices)
+2026-03-31 12:03:00,329 - INFO -     Historical operations (trends, moving averages)
+2026-03-31 12:03:00,329 - INFO -     Company operations (info, financials, analyst ratings)
+2026-03-31 12:03:00,329 - INFO -     Validator operations (symbol checking, suggestions)
+2026-03-31 12:03:00,329 - INFO - Database path is: C:\Users\MUKUND\Desktop\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-31 12:03:08,815 - INFO - ==================================================
+2026-03-31 12:03:08,815 - INFO -  Financial Data Service Configuration Loaded
+2026-03-31 12:03:08,815 - INFO - ==================================================
+2026-03-31 12:03:08,815 - INFO - Project root: C:\Users\MUKUND\Desktop\Financial-Intelligence-Agent-Platform-FIAP-\data
+2026-03-31 12:03:08,815 - INFO - Database: C:\Users\MUKUND\Desktop\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-31 12:03:08,816 - INFO - Tracking 5 stocks: GOOGL, AAPL, AMZN, TSLA, MSFT
+2026-03-31 12:03:08,828 - INFO - Database path is: C:\Users\MUKUND\Desktop\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-31 12:03:08,828 - INFO - BaseStockFetcher initialized with database: C:\Users\MUKUND\Desktop\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-31 12:03:08,828 - INFO -  StockFetcher fully initialized with ALL operations:
+2026-03-31 12:03:08,828 - INFO -     Quote operations (current prices)
+2026-03-31 12:03:08,828 - INFO -     Historical operations (trends, moving averages)
+2026-03-31 12:03:08,828 - INFO -     Company operations (info, financials, analyst ratings)
+2026-03-31 12:03:08,828 - INFO -     Validator operations (symbol checking, suggestions)
+2026-03-31 12:03:08,828 - INFO - Database path is: C:\Users\MUKUND\Desktop\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-31 12:03:15,974 - INFO - ==================================================
+2026-03-31 12:03:15,974 - INFO -  Financial Data Service Configuration Loaded
+2026-03-31 12:03:15,974 - INFO - ==================================================
+2026-03-31 12:03:15,974 - INFO - Project root: C:\Users\MUKUND\Desktop\Financial-Intelligence-Agent-Platform-FIAP-\data
+2026-03-31 12:03:15,974 - INFO - Database: C:\Users\MUKUND\Desktop\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-31 12:03:15,974 - INFO - Tracking 5 stocks: GOOGL, AAPL, AMZN, TSLA, MSFT
+2026-03-31 12:03:16,002 - INFO - Database path is: C:\Users\MUKUND\Desktop\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-31 12:03:16,002 - INFO - BaseStockFetcher initialized with database: C:\Users\MUKUND\Desktop\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-31 12:03:16,002 - INFO -  StockFetcher fully initialized with ALL operations:
+2026-03-31 12:03:16,002 - INFO -     Quote operations (current prices)
+2026-03-31 12:03:16,002 - INFO -     Historical operations (trends, moving averages)
+2026-03-31 12:03:16,003 - INFO -     Company operations (info, financials, analyst ratings)
+2026-03-31 12:03:16,003 - INFO -     Validator operations (symbol checking, suggestions)
+2026-03-31 12:03:16,003 - INFO - Database path is: C:\Users\MUKUND\Desktop\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-31 12:03:23,775 - INFO - ==================================================
+2026-03-31 12:03:23,776 - INFO -  Financial Data Service Configuration Loaded
+2026-03-31 12:03:23,776 - INFO - ==================================================
+2026-03-31 12:03:23,776 - INFO - Project root: C:\Users\MUKUND\Desktop\Financial-Intelligence-Agent-Platform-FIAP-\data
+2026-03-31 12:03:23,776 - INFO - Database: C:\Users\MUKUND\Desktop\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-31 12:03:23,776 - INFO - Tracking 5 stocks: GOOGL, AAPL, AMZN, TSLA, MSFT
+2026-03-31 12:03:23,788 - INFO - Database path is: C:\Users\MUKUND\Desktop\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-31 12:03:23,788 - INFO - BaseStockFetcher initialized with database: C:\Users\MUKUND\Desktop\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-31 12:03:23,788 - INFO -  StockFetcher fully initialized with ALL operations:
+2026-03-31 12:03:23,788 - INFO -     Quote operations (current prices)
+2026-03-31 12:03:23,788 - INFO -     Historical operations (trends, moving averages)
+2026-03-31 12:03:23,788 - INFO -     Company operations (info, financials, analyst ratings)
+2026-03-31 12:03:23,788 - INFO -     Validator operations (symbol checking, suggestions)
+2026-03-31 12:03:23,788 - INFO - Database path is: C:\Users\MUKUND\Desktop\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-31 12:03:43,099 - INFO - ==================================================
+2026-03-31 12:03:43,099 - INFO -  Financial Data Service Configuration Loaded
+2026-03-31 12:03:43,099 - INFO - ==================================================
+2026-03-31 12:03:43,099 - INFO - Project root: C:\Users\MUKUND\Desktop\Financial-Intelligence-Agent-Platform-FIAP-\data
+2026-03-31 12:03:43,099 - INFO - Database: C:\Users\MUKUND\Desktop\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-31 12:03:43,099 - INFO - Tracking 5 stocks: GOOGL, AAPL, AMZN, TSLA, MSFT
+2026-03-31 12:03:43,117 - INFO - Database path is: C:\Users\MUKUND\Desktop\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-31 12:03:43,117 - INFO - BaseStockFetcher initialized with database: C:\Users\MUKUND\Desktop\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-31 12:03:43,117 - INFO -  StockFetcher fully initialized with ALL operations:
+2026-03-31 12:03:43,117 - INFO -     Quote operations (current prices)
+2026-03-31 12:03:43,117 - INFO -     Historical operations (trends, moving averages)
+2026-03-31 12:03:43,118 - INFO -     Company operations (info, financials, analyst ratings)
+2026-03-31 12:03:43,118 - INFO -     Validator operations (symbol checking, suggestions)
+2026-03-31 12:03:43,119 - INFO - Database path is: C:\Users\MUKUND\Desktop\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-31 12:03:50,924 - INFO - ==================================================
+2026-03-31 12:03:50,924 - INFO -  Financial Data Service Configuration Loaded
+2026-03-31 12:03:50,924 - INFO - ==================================================
+2026-03-31 12:03:50,924 - INFO - Project root: C:\Users\MUKUND\Desktop\Financial-Intelligence-Agent-Platform-FIAP-\data
+2026-03-31 12:03:50,924 - INFO - Database: C:\Users\MUKUND\Desktop\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-31 12:03:50,924 - INFO - Tracking 5 stocks: GOOGL, AAPL, AMZN, TSLA, MSFT
+2026-03-31 12:03:50,936 - INFO - Database path is: C:\Users\MUKUND\Desktop\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-31 12:03:50,936 - INFO - BaseStockFetcher initialized with database: C:\Users\MUKUND\Desktop\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-31 12:03:50,936 - INFO -  StockFetcher fully initialized with ALL operations:
+2026-03-31 12:03:50,936 - INFO -     Quote operations (current prices)
+2026-03-31 12:03:50,937 - INFO -     Historical operations (trends, moving averages)
+2026-03-31 12:03:50,937 - INFO -     Company operations (info, financials, analyst ratings)
+2026-03-31 12:03:50,937 - INFO -     Validator operations (symbol checking, suggestions)
+2026-03-31 12:03:50,937 - INFO - Database path is: C:\Users\MUKUND\Desktop\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-31 12:04:09,881 - INFO - ==================================================
+2026-03-31 12:04:09,881 - INFO -  Financial Data Service Configuration Loaded
+2026-03-31 12:04:09,881 - INFO - ==================================================
+2026-03-31 12:04:09,881 - INFO - Project root: C:\Users\MUKUND\Desktop\Financial-Intelligence-Agent-Platform-FIAP-\data
+2026-03-31 12:04:09,882 - INFO - Database: C:\Users\MUKUND\Desktop\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-31 12:04:09,882 - INFO - Tracking 5 stocks: GOOGL, AAPL, AMZN, TSLA, MSFT
+2026-03-31 12:04:09,896 - INFO - Database path is: C:\Users\MUKUND\Desktop\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-31 12:04:09,896 - INFO - BaseStockFetcher initialized with database: C:\Users\MUKUND\Desktop\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-31 12:04:09,896 - INFO -  StockFetcher fully initialized with ALL operations:
+2026-03-31 12:04:09,896 - INFO -     Quote operations (current prices)
+2026-03-31 12:04:09,896 - INFO -     Historical operations (trends, moving averages)
+2026-03-31 12:04:09,896 - INFO -     Company operations (info, financials, analyst ratings)
+2026-03-31 12:04:09,896 - INFO -     Validator operations (symbol checking, suggestions)
+2026-03-31 12:04:09,896 - INFO - Database path is: C:\Users\MUKUND\Desktop\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-31 12:04:17,505 - INFO - ==================================================
+2026-03-31 12:04:17,506 - INFO -  Financial Data Service Configuration Loaded
+2026-03-31 12:04:17,506 - INFO - ==================================================
+2026-03-31 12:04:17,506 - INFO - Project root: C:\Users\MUKUND\Desktop\Financial-Intelligence-Agent-Platform-FIAP-\data
+2026-03-31 12:04:17,506 - INFO - Database: C:\Users\MUKUND\Desktop\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-31 12:04:17,506 - INFO - Tracking 5 stocks: GOOGL, AAPL, AMZN, TSLA, MSFT
+2026-03-31 12:04:17,534 - INFO - Database path is: C:\Users\MUKUND\Desktop\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-31 12:04:17,534 - INFO - BaseStockFetcher initialized with database: C:\Users\MUKUND\Desktop\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-31 12:04:17,534 - INFO -  StockFetcher fully initialized with ALL operations:
+2026-03-31 12:04:17,535 - INFO -     Quote operations (current prices)
+2026-03-31 12:04:17,535 - INFO -     Historical operations (trends, moving averages)
+2026-03-31 12:04:17,535 - INFO -     Company operations (info, financials, analyst ratings)
+2026-03-31 12:04:17,535 - INFO -     Validator operations (symbol checking, suggestions)
+2026-03-31 12:04:17,535 - INFO - Database path is: C:\Users\MUKUND\Desktop\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-31 12:05:22,233 - INFO - ==================================================
+2026-03-31 12:05:22,234 - INFO -  Financial Data Service Configuration Loaded
+2026-03-31 12:05:22,234 - INFO - ==================================================
+2026-03-31 12:05:22,234 - INFO - Project root: C:\Users\MUKUND\Desktop\Financial-Intelligence-Agent-Platform-FIAP-\data
+2026-03-31 12:05:22,234 - INFO - Database: C:\Users\MUKUND\Desktop\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-31 12:05:22,234 - INFO - Tracking 5 stocks: GOOGL, AAPL, AMZN, TSLA, MSFT
+2026-03-31 12:05:22,246 - INFO - Database path is: C:\Users\MUKUND\Desktop\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-31 12:05:22,246 - INFO - BaseStockFetcher initialized with database: C:\Users\MUKUND\Desktop\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-31 12:05:22,247 - INFO -  StockFetcher fully initialized with ALL operations:
+2026-03-31 12:05:22,247 - INFO -     Quote operations (current prices)
+2026-03-31 12:05:22,247 - INFO -     Historical operations (trends, moving averages)
+2026-03-31 12:05:22,247 - INFO -     Company operations (info, financials, analyst ratings)
+2026-03-31 12:05:22,247 - INFO -     Validator operations (symbol checking, suggestions)
+2026-03-31 12:05:22,247 - INFO - Database path is: C:\Users\MUKUND\Desktop\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-31 12:05:34,570 - INFO - ==================================================
+2026-03-31 12:05:34,570 - INFO -  Financial Data Service Configuration Loaded
+2026-03-31 12:05:34,570 - INFO - ==================================================
+2026-03-31 12:05:34,570 - INFO - Project root: C:\Users\MUKUND\Desktop\Financial-Intelligence-Agent-Platform-FIAP-\data
+2026-03-31 12:05:34,570 - INFO - Database: C:\Users\MUKUND\Desktop\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-31 12:05:34,571 - INFO - Tracking 5 stocks: GOOGL, AAPL, AMZN, TSLA, MSFT
+2026-03-31 12:05:34,582 - INFO - Database path is: C:\Users\MUKUND\Desktop\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-31 12:05:34,583 - INFO - BaseStockFetcher initialized with database: C:\Users\MUKUND\Desktop\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-31 12:05:34,583 - INFO -  StockFetcher fully initialized with ALL operations:
+2026-03-31 12:05:34,583 - INFO -     Quote operations (current prices)
+2026-03-31 12:05:34,583 - INFO -     Historical operations (trends, moving averages)
+2026-03-31 12:05:34,583 - INFO -     Company operations (info, financials, analyst ratings)
+2026-03-31 12:05:34,583 - INFO -     Validator operations (symbol checking, suggestions)
+2026-03-31 12:05:34,583 - INFO - Database path is: C:\Users\MUKUND\Desktop\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-31 12:05:41,631 - INFO - ==================================================
+2026-03-31 12:05:41,631 - INFO -  Financial Data Service Configuration Loaded
+2026-03-31 12:05:41,631 - INFO - ==================================================
+2026-03-31 12:05:41,631 - INFO - Project root: C:\Users\MUKUND\Desktop\Financial-Intelligence-Agent-Platform-FIAP-\data
+2026-03-31 12:05:41,631 - INFO - Database: C:\Users\MUKUND\Desktop\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-31 12:05:41,631 - INFO - Tracking 5 stocks: GOOGL, AAPL, AMZN, TSLA, MSFT
+2026-03-31 12:05:41,647 - INFO - Database path is: C:\Users\MUKUND\Desktop\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-31 12:05:41,647 - INFO - BaseStockFetcher initialized with database: C:\Users\MUKUND\Desktop\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-31 12:05:41,647 - INFO -  StockFetcher fully initialized with ALL operations:
+2026-03-31 12:05:41,647 - INFO -     Quote operations (current prices)
+2026-03-31 12:05:41,647 - INFO -     Historical operations (trends, moving averages)
+2026-03-31 12:05:41,647 - INFO -     Company operations (info, financials, analyst ratings)
+2026-03-31 12:05:41,647 - INFO -     Validator operations (symbol checking, suggestions)
+2026-03-31 12:05:41,647 - INFO - Database path is: C:\Users\MUKUND\Desktop\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-31 12:06:03,827 - INFO - ==================================================
+2026-03-31 12:06:03,827 - INFO -  Financial Data Service Configuration Loaded
+2026-03-31 12:06:03,827 - INFO - ==================================================
+2026-03-31 12:06:03,827 - INFO - Project root: C:\Users\MUKUND\Desktop\Financial-Intelligence-Agent-Platform-FIAP-\data
+2026-03-31 12:06:03,828 - INFO - Database: C:\Users\MUKUND\Desktop\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-31 12:06:03,828 - INFO - Tracking 5 stocks: GOOGL, AAPL, AMZN, TSLA, MSFT
+2026-03-31 12:06:03,838 - INFO - Database path is: C:\Users\MUKUND\Desktop\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-31 12:06:03,839 - INFO - BaseStockFetcher initialized with database: C:\Users\MUKUND\Desktop\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-31 12:06:03,839 - INFO -  StockFetcher fully initialized with ALL operations:
+2026-03-31 12:06:03,839 - INFO -     Quote operations (current prices)
+2026-03-31 12:06:03,839 - INFO -     Historical operations (trends, moving averages)
+2026-03-31 12:06:03,839 - INFO -     Company operations (info, financials, analyst ratings)
+2026-03-31 12:06:03,839 - INFO -     Validator operations (symbol checking, suggestions)
+2026-03-31 12:06:03,839 - INFO - Database path is: C:\Users\MUKUND\Desktop\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-31 12:06:22,363 - INFO - ==================================================
+2026-03-31 12:06:22,363 - INFO -  Financial Data Service Configuration Loaded
+2026-03-31 12:06:22,363 - INFO - ==================================================
+2026-03-31 12:06:22,363 - INFO - Project root: C:\Users\MUKUND\Desktop\Financial-Intelligence-Agent-Platform-FIAP-\data
+2026-03-31 12:06:22,363 - INFO - Database: C:\Users\MUKUND\Desktop\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-31 12:06:22,363 - INFO - Tracking 5 stocks: GOOGL, AAPL, AMZN, TSLA, MSFT
+2026-03-31 12:06:22,382 - INFO - Database path is: C:\Users\MUKUND\Desktop\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-31 12:06:22,382 - INFO - BaseStockFetcher initialized with database: C:\Users\MUKUND\Desktop\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-31 12:06:22,382 - INFO -  StockFetcher fully initialized with ALL operations:
+2026-03-31 12:06:22,382 - INFO -     Quote operations (current prices)
+2026-03-31 12:06:22,382 - INFO -     Historical operations (trends, moving averages)
+2026-03-31 12:06:22,382 - INFO -     Company operations (info, financials, analyst ratings)
+2026-03-31 12:06:22,382 - INFO -     Validator operations (symbol checking, suggestions)
+2026-03-31 12:06:22,382 - INFO - Database path is: C:\Users\MUKUND\Desktop\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-31 12:06:43,081 - INFO - ==================================================
+2026-03-31 12:06:43,082 - INFO -  Financial Data Service Configuration Loaded
+2026-03-31 12:06:43,082 - INFO - ==================================================
+2026-03-31 12:06:43,082 - INFO - Project root: C:\Users\MUKUND\Desktop\Financial-Intelligence-Agent-Platform-FIAP-\data
+2026-03-31 12:06:43,082 - INFO - Database: C:\Users\MUKUND\Desktop\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-31 12:06:43,083 - INFO - Tracking 5 stocks: GOOGL, AAPL, AMZN, TSLA, MSFT
+2026-03-31 12:06:43,113 - INFO - Database path is: C:\Users\MUKUND\Desktop\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-31 12:06:43,113 - INFO - BaseStockFetcher initialized with database: C:\Users\MUKUND\Desktop\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-31 12:06:43,114 - INFO -  StockFetcher fully initialized with ALL operations:
+2026-03-31 12:06:43,114 - INFO -     Quote operations (current prices)
+2026-03-31 12:06:43,114 - INFO -     Historical operations (trends, moving averages)
+2026-03-31 12:06:43,114 - INFO -     Company operations (info, financials, analyst ratings)
+2026-03-31 12:06:43,114 - INFO -     Validator operations (symbol checking, suggestions)
+2026-03-31 12:06:43,114 - INFO - Database path is: C:\Users\MUKUND\Desktop\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-31 12:06:51,429 - INFO - ==================================================
+2026-03-31 12:06:51,430 - INFO -  Financial Data Service Configuration Loaded
+2026-03-31 12:06:51,430 - INFO - ==================================================
+2026-03-31 12:06:51,430 - INFO - Project root: C:\Users\MUKUND\Desktop\Financial-Intelligence-Agent-Platform-FIAP-\data
+2026-03-31 12:06:51,430 - INFO - Database: C:\Users\MUKUND\Desktop\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-31 12:06:51,430 - INFO - Tracking 5 stocks: GOOGL, AAPL, AMZN, TSLA, MSFT
+2026-03-31 12:06:51,442 - INFO - Database path is: C:\Users\MUKUND\Desktop\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-31 12:06:51,442 - INFO - BaseStockFetcher initialized with database: C:\Users\MUKUND\Desktop\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-31 12:06:51,442 - INFO -  StockFetcher fully initialized with ALL operations:
+2026-03-31 12:06:51,442 - INFO -     Quote operations (current prices)
+2026-03-31 12:06:51,442 - INFO -     Historical operations (trends, moving averages)
+2026-03-31 12:06:51,442 - INFO -     Company operations (info, financials, analyst ratings)
+2026-03-31 12:06:51,442 - INFO -     Validator operations (symbol checking, suggestions)
+2026-03-31 12:06:51,442 - INFO - Database path is: C:\Users\MUKUND\Desktop\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-31 12:07:06,280 - INFO - ==================================================
+2026-03-31 12:07:06,280 - INFO -  Financial Data Service Configuration Loaded
+2026-03-31 12:07:06,280 - INFO - ==================================================
+2026-03-31 12:07:06,280 - INFO - Project root: C:\Users\MUKUND\Desktop\Financial-Intelligence-Agent-Platform-FIAP-\data
+2026-03-31 12:07:06,280 - INFO - Database: C:\Users\MUKUND\Desktop\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-31 12:07:06,280 - INFO - Tracking 5 stocks: GOOGL, AAPL, AMZN, TSLA, MSFT
+2026-03-31 12:07:06,294 - INFO - Database path is: C:\Users\MUKUND\Desktop\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-31 12:07:06,295 - INFO - BaseStockFetcher initialized with database: C:\Users\MUKUND\Desktop\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-31 12:07:06,295 - INFO -  StockFetcher fully initialized with ALL operations:
+2026-03-31 12:07:06,295 - INFO -     Quote operations (current prices)
+2026-03-31 12:07:06,295 - INFO -     Historical operations (trends, moving averages)
+2026-03-31 12:07:06,296 - INFO -     Company operations (info, financials, analyst ratings)
+2026-03-31 12:07:06,296 - INFO -     Validator operations (symbol checking, suggestions)
+2026-03-31 12:07:06,296 - INFO - Database path is: C:\Users\MUKUND\Desktop\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-31 12:07:14,334 - INFO - ==================================================
+2026-03-31 12:07:14,334 - INFO -  Financial Data Service Configuration Loaded
+2026-03-31 12:07:14,334 - INFO - ==================================================
+2026-03-31 12:07:14,334 - INFO - Project root: C:\Users\MUKUND\Desktop\Financial-Intelligence-Agent-Platform-FIAP-\data
+2026-03-31 12:07:14,334 - INFO - Database: C:\Users\MUKUND\Desktop\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-31 12:07:14,334 - INFO - Tracking 5 stocks: GOOGL, AAPL, AMZN, TSLA, MSFT
+2026-03-31 12:07:14,355 - INFO - Database path is: C:\Users\MUKUND\Desktop\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-31 12:07:14,355 - INFO - BaseStockFetcher initialized with database: C:\Users\MUKUND\Desktop\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-31 12:07:14,355 - INFO -  StockFetcher fully initialized with ALL operations:
+2026-03-31 12:07:14,355 - INFO -     Quote operations (current prices)
+2026-03-31 12:07:14,355 - INFO -     Historical operations (trends, moving averages)
+2026-03-31 12:07:14,355 - INFO -     Company operations (info, financials, analyst ratings)
+2026-03-31 12:07:14,356 - INFO -     Validator operations (symbol checking, suggestions)
+2026-03-31 12:07:14,356 - INFO - Database path is: C:\Users\MUKUND\Desktop\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-31 12:07:22,664 - INFO - ==================================================
+2026-03-31 12:07:22,664 - INFO -  Financial Data Service Configuration Loaded
+2026-03-31 12:07:22,665 - INFO - ==================================================
+2026-03-31 12:07:22,665 - INFO - Project root: C:\Users\MUKUND\Desktop\Financial-Intelligence-Agent-Platform-FIAP-\data
+2026-03-31 12:07:22,665 - INFO - Database: C:\Users\MUKUND\Desktop\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-31 12:07:22,665 - INFO - Tracking 5 stocks: GOOGL, AAPL, AMZN, TSLA, MSFT
+2026-03-31 12:07:22,680 - INFO - Database path is: C:\Users\MUKUND\Desktop\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-31 12:07:22,680 - INFO - BaseStockFetcher initialized with database: C:\Users\MUKUND\Desktop\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-31 12:07:22,680 - INFO -  StockFetcher fully initialized with ALL operations:
+2026-03-31 12:07:22,680 - INFO -     Quote operations (current prices)
+2026-03-31 12:07:22,680 - INFO -     Historical operations (trends, moving averages)
+2026-03-31 12:07:22,680 - INFO -     Company operations (info, financials, analyst ratings)
+2026-03-31 12:07:22,680 - INFO -     Validator operations (symbol checking, suggestions)
+2026-03-31 12:07:22,680 - INFO - Database path is: C:\Users\MUKUND\Desktop\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-31 12:07:31,928 - INFO - ==================================================
+2026-03-31 12:07:31,928 - INFO -  Financial Data Service Configuration Loaded
+2026-03-31 12:07:31,928 - INFO - ==================================================
+2026-03-31 12:07:31,928 - INFO - Project root: C:\Users\MUKUND\Desktop\Financial-Intelligence-Agent-Platform-FIAP-\data
+2026-03-31 12:07:31,929 - INFO - Database: C:\Users\MUKUND\Desktop\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-31 12:07:31,929 - INFO - Tracking 5 stocks: GOOGL, AAPL, AMZN, TSLA, MSFT
+2026-03-31 12:07:31,954 - INFO - Database path is: C:\Users\MUKUND\Desktop\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-31 12:07:31,954 - INFO - BaseStockFetcher initialized with database: C:\Users\MUKUND\Desktop\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-31 12:07:31,954 - INFO -  StockFetcher fully initialized with ALL operations:
+2026-03-31 12:07:31,954 - INFO -     Quote operations (current prices)
+2026-03-31 12:07:31,954 - INFO -     Historical operations (trends, moving averages)
+2026-03-31 12:07:31,954 - INFO -     Company operations (info, financials, analyst ratings)
+2026-03-31 12:07:31,954 - INFO -     Validator operations (symbol checking, suggestions)
+2026-03-31 12:07:31,954 - INFO - Database path is: C:\Users\MUKUND\Desktop\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-31 12:08:39,470 - INFO - ==================================================
+2026-03-31 12:08:39,470 - INFO -  Financial Data Service Configuration Loaded
+2026-03-31 12:08:39,470 - INFO - ==================================================
+2026-03-31 12:08:39,471 - INFO - Project root: C:\Users\MUKUND\Desktop\Financial-Intelligence-Agent-Platform-FIAP-\data
+2026-03-31 12:08:39,471 - INFO - Database: C:\Users\MUKUND\Desktop\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-31 12:08:39,471 - INFO - Tracking 5 stocks: GOOGL, AAPL, AMZN, TSLA, MSFT
+2026-03-31 12:08:39,489 - INFO - Database path is: C:\Users\MUKUND\Desktop\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-31 12:08:39,489 - INFO - BaseStockFetcher initialized with database: C:\Users\MUKUND\Desktop\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-31 12:08:39,489 - INFO -  StockFetcher fully initialized with ALL operations:
+2026-03-31 12:08:39,489 - INFO -     Quote operations (current prices)
+2026-03-31 12:08:39,490 - INFO -     Historical operations (trends, moving averages)
+2026-03-31 12:08:39,490 - INFO -     Company operations (info, financials, analyst ratings)
+2026-03-31 12:08:39,490 - INFO -     Validator operations (symbol checking, suggestions)
+2026-03-31 12:08:39,490 - INFO - Database path is: C:\Users\MUKUND\Desktop\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-31 12:09:10,624 - INFO - ==================================================
+2026-03-31 12:09:10,624 - INFO -  Financial Data Service Configuration Loaded
+2026-03-31 12:09:10,624 - INFO - ==================================================
+2026-03-31 12:09:10,624 - INFO - Project root: C:\Users\MUKUND\Desktop\Financial-Intelligence-Agent-Platform-FIAP-\data
+2026-03-31 12:09:10,624 - INFO - Database: C:\Users\MUKUND\Desktop\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-31 12:09:10,624 - INFO - Tracking 5 stocks: GOOGL, AAPL, AMZN, TSLA, MSFT
+2026-03-31 12:09:10,645 - INFO - Database path is: C:\Users\MUKUND\Desktop\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-31 12:09:10,645 - INFO - BaseStockFetcher initialized with database: C:\Users\MUKUND\Desktop\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-31 12:09:10,645 - INFO -  StockFetcher fully initialized with ALL operations:
+2026-03-31 12:09:10,645 - INFO -     Quote operations (current prices)
+2026-03-31 12:09:10,645 - INFO -     Historical operations (trends, moving averages)
+2026-03-31 12:09:10,645 - INFO -     Company operations (info, financials, analyst ratings)
+2026-03-31 12:09:10,645 - INFO -     Validator operations (symbol checking, suggestions)
+2026-03-31 12:09:10,645 - INFO - Database path is: C:\Users\MUKUND\Desktop\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-31 12:09:38,692 - INFO - ==================================================
+2026-03-31 12:09:38,693 - INFO -  Financial Data Service Configuration Loaded
+2026-03-31 12:09:38,694 - INFO - ==================================================
+2026-03-31 12:09:38,694 - INFO - Project root: C:\Users\MUKUND\Desktop\Financial-Intelligence-Agent-Platform-FIAP-\data
+2026-03-31 12:09:38,695 - INFO - Database: C:\Users\MUKUND\Desktop\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-31 12:09:38,695 - INFO - Tracking 5 stocks: GOOGL, AAPL, AMZN, TSLA, MSFT
+2026-03-31 12:09:38,754 - INFO - Database path is: C:\Users\MUKUND\Desktop\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-31 12:09:38,755 - INFO - BaseStockFetcher initialized with database: C:\Users\MUKUND\Desktop\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-31 12:09:38,755 - INFO -  StockFetcher fully initialized with ALL operations:
+2026-03-31 12:09:38,756 - INFO -     Quote operations (current prices)
+2026-03-31 12:09:38,756 - INFO -     Historical operations (trends, moving averages)
+2026-03-31 12:09:38,756 - INFO -     Company operations (info, financials, analyst ratings)
+2026-03-31 12:09:38,756 - INFO -     Validator operations (symbol checking, suggestions)
+2026-03-31 12:09:38,757 - INFO - Database path is: C:\Users\MUKUND\Desktop\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-31 12:10:20,697 - INFO - ==================================================
+2026-03-31 12:10:20,698 - INFO -  Financial Data Service Configuration Loaded
+2026-03-31 12:10:20,698 - INFO - ==================================================
+2026-03-31 12:10:20,698 - INFO - Project root: C:\Users\MUKUND\Desktop\Financial-Intelligence-Agent-Platform-FIAP-\data
+2026-03-31 12:10:20,699 - INFO - Database: C:\Users\MUKUND\Desktop\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-31 12:10:20,699 - INFO - Tracking 5 stocks: GOOGL, AAPL, AMZN, TSLA, MSFT
+2026-03-31 12:10:20,725 - INFO - Database path is: C:\Users\MUKUND\Desktop\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-31 12:10:20,725 - INFO - BaseStockFetcher initialized with database: C:\Users\MUKUND\Desktop\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-31 12:10:20,725 - INFO -  StockFetcher fully initialized with ALL operations:
+2026-03-31 12:10:20,726 - INFO -     Quote operations (current prices)
+2026-03-31 12:10:20,726 - INFO -     Historical operations (trends, moving averages)
+2026-03-31 12:10:20,726 - INFO -     Company operations (info, financials, analyst ratings)
+2026-03-31 12:10:20,726 - INFO -     Validator operations (symbol checking, suggestions)
+2026-03-31 12:10:20,726 - INFO - Database path is: C:\Users\MUKUND\Desktop\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-31 12:13:13,950 - INFO - ==================================================
+2026-03-31 12:13:13,951 - INFO -  Financial Data Service Configuration Loaded
+2026-03-31 12:13:13,951 - INFO - ==================================================
+2026-03-31 12:13:13,952 - INFO - Project root: C:\Users\MUKUND\Desktop\Financial-Intelligence-Agent-Platform-FIAP-\data
+2026-03-31 12:13:13,952 - INFO - Database: C:\Users\MUKUND\Desktop\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-31 12:13:13,952 - INFO - Tracking 5 stocks: GOOGL, AAPL, AMZN, TSLA, MSFT
+2026-03-31 12:13:14,024 - INFO - Database path is: C:\Users\MUKUND\Desktop\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-31 12:13:14,025 - INFO - BaseStockFetcher initialized with database: C:\Users\MUKUND\Desktop\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-31 12:13:14,025 - INFO -  StockFetcher fully initialized with ALL operations:
+2026-03-31 12:13:14,025 - INFO -     Quote operations (current prices)
+2026-03-31 12:13:14,026 - INFO -     Historical operations (trends, moving averages)
+2026-03-31 12:13:14,026 - INFO -     Company operations (info, financials, analyst ratings)
+2026-03-31 12:13:14,026 - INFO -     Validator operations (symbol checking, suggestions)
+2026-03-31 12:13:14,026 - INFO - Database path is: C:\Users\MUKUND\Desktop\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-31 12:14:44,067 - INFO - ==================================================
+2026-03-31 12:14:44,067 - INFO -  Financial Data Service Configuration Loaded
+2026-03-31 12:14:44,068 - INFO - ==================================================
+2026-03-31 12:14:44,068 - INFO - Project root: C:\Users\MUKUND\Desktop\Financial-Intelligence-Agent-Platform-FIAP-\data
+2026-03-31 12:14:44,068 - INFO - Database: C:\Users\MUKUND\Desktop\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-31 12:14:44,068 - INFO - Tracking 5 stocks: GOOGL, AAPL, AMZN, TSLA, MSFT
+2026-03-31 12:14:44,102 - INFO - Database path is: C:\Users\MUKUND\Desktop\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-31 12:14:44,102 - INFO - BaseStockFetcher initialized with database: C:\Users\MUKUND\Desktop\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-31 12:14:44,102 - INFO -  StockFetcher fully initialized with ALL operations:
+2026-03-31 12:14:44,102 - INFO -     Quote operations (current prices)
+2026-03-31 12:14:44,103 - INFO -     Historical operations (trends, moving averages)
+2026-03-31 12:14:44,103 - INFO -     Company operations (info, financials, analyst ratings)
+2026-03-31 12:14:44,103 - INFO -     Validator operations (symbol checking, suggestions)
+2026-03-31 12:14:44,104 - INFO - Database path is: C:\Users\MUKUND\Desktop\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-31 12:19:10,950 - INFO - ==================================================
+2026-03-31 12:19:10,950 - INFO -  Financial Data Service Configuration Loaded
+2026-03-31 12:19:10,950 - INFO - ==================================================
+2026-03-31 12:19:10,951 - INFO - Project root: C:\Users\MUKUND\Desktop\Financial-Intelligence-Agent-Platform-FIAP-\data
+2026-03-31 12:19:10,951 - INFO - Database: C:\Users\MUKUND\Desktop\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-31 12:19:10,951 - INFO - Tracking 5 stocks: GOOGL, AAPL, AMZN, TSLA, MSFT
+2026-03-31 12:19:10,962 - INFO - Database path is: C:\Users\MUKUND\Desktop\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-31 12:19:10,963 - INFO - BaseStockFetcher initialized with database: C:\Users\MUKUND\Desktop\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-31 12:19:10,963 - INFO -  StockFetcher fully initialized with ALL operations:
+2026-03-31 12:19:10,963 - INFO -     Quote operations (current prices)
+2026-03-31 12:19:10,963 - INFO -     Historical operations (trends, moving averages)
+2026-03-31 12:19:10,963 - INFO -     Company operations (info, financials, analyst ratings)
+2026-03-31 12:19:10,963 - INFO -     Validator operations (symbol checking, suggestions)
+2026-03-31 12:19:10,963 - INFO - Database path is: C:\Users\MUKUND\Desktop\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-31 12:21:56,459 - INFO - ==================================================
+2026-03-31 12:21:56,459 - INFO -  Financial Data Service Configuration Loaded
+2026-03-31 12:21:56,460 - INFO - ==================================================
+2026-03-31 12:21:56,460 - INFO - Project root: C:\Users\MUKUND\Desktop\Financial-Intelligence-Agent-Platform-FIAP-\data
+2026-03-31 12:21:56,460 - INFO - Database: C:\Users\MUKUND\Desktop\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-31 12:21:56,460 - INFO - Tracking 5 stocks: GOOGL, AAPL, AMZN, TSLA, MSFT
+2026-03-31 12:21:56,473 - INFO - Database path is: C:\Users\MUKUND\Desktop\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-31 12:21:56,474 - INFO - BaseStockFetcher initialized with database: C:\Users\MUKUND\Desktop\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-31 12:21:56,474 - INFO -  StockFetcher fully initialized with ALL operations:
+2026-03-31 12:21:56,474 - INFO -     Quote operations (current prices)
+2026-03-31 12:21:56,474 - INFO -     Historical operations (trends, moving averages)
+2026-03-31 12:21:56,474 - INFO -     Company operations (info, financials, analyst ratings)
+2026-03-31 12:21:56,474 - INFO -     Validator operations (symbol checking, suggestions)
+2026-03-31 12:21:56,474 - INFO - Database path is: C:\Users\MUKUND\Desktop\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-31 12:30:53,563 - INFO - ==================================================
+2026-03-31 12:30:53,563 - INFO -  Financial Data Service Configuration Loaded
+2026-03-31 12:30:53,563 - INFO - ==================================================
+2026-03-31 12:30:53,563 - INFO - Project root: C:\Users\MUKUND\Desktop\Financial-Intelligence-Agent-Platform-FIAP-\data
+2026-03-31 12:30:53,563 - INFO - Database: C:\Users\MUKUND\Desktop\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-31 12:30:53,563 - INFO - Tracking 5 stocks: GOOGL, AAPL, AMZN, TSLA, MSFT
+2026-03-31 12:30:53,581 - INFO - Database path is: C:\Users\MUKUND\Desktop\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-31 12:30:53,581 - INFO - BaseStockFetcher initialized with database: C:\Users\MUKUND\Desktop\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-31 12:30:53,581 - INFO -  StockFetcher fully initialized with ALL operations:
+2026-03-31 12:30:53,581 - INFO -     Quote operations (current prices)
+2026-03-31 12:30:53,581 - INFO -     Historical operations (trends, moving averages)
+2026-03-31 12:30:53,581 - INFO -     Company operations (info, financials, analyst ratings)
+2026-03-31 12:30:53,581 - INFO -     Validator operations (symbol checking, suggestions)
+2026-03-31 12:30:53,581 - INFO - Database path is: C:\Users\MUKUND\Desktop\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-31 12:31:13,835 - INFO - ==================================================
+2026-03-31 12:31:13,836 - INFO -  Financial Data Service Configuration Loaded
+2026-03-31 12:31:13,836 - INFO - ==================================================
+2026-03-31 12:31:13,836 - INFO - Project root: C:\Users\MUKUND\Desktop\Financial-Intelligence-Agent-Platform-FIAP-\data
+2026-03-31 12:31:13,836 - INFO - Database: C:\Users\MUKUND\Desktop\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-31 12:31:13,836 - INFO - Tracking 5 stocks: GOOGL, AAPL, AMZN, TSLA, MSFT
+2026-03-31 12:31:13,859 - INFO - Database path is: C:\Users\MUKUND\Desktop\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-31 12:31:13,859 - INFO - BaseStockFetcher initialized with database: C:\Users\MUKUND\Desktop\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-31 12:31:13,859 - INFO -  StockFetcher fully initialized with ALL operations:
+2026-03-31 12:31:13,859 - INFO -     Quote operations (current prices)
+2026-03-31 12:31:13,859 - INFO -     Historical operations (trends, moving averages)
+2026-03-31 12:31:13,859 - INFO -     Company operations (info, financials, analyst ratings)
+2026-03-31 12:31:13,859 - INFO -     Validator operations (symbol checking, suggestions)
+2026-03-31 12:31:13,859 - INFO - Database path is: C:\Users\MUKUND\Desktop\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-31 12:31:21,502 - INFO - ==================================================
+2026-03-31 12:31:21,502 - INFO -  Financial Data Service Configuration Loaded
+2026-03-31 12:31:21,502 - INFO - ==================================================
+2026-03-31 12:31:21,502 - INFO - Project root: C:\Users\MUKUND\Desktop\Financial-Intelligence-Agent-Platform-FIAP-\data
+2026-03-31 12:31:21,503 - INFO - Database: C:\Users\MUKUND\Desktop\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-31 12:31:21,503 - INFO - Tracking 5 stocks: GOOGL, AAPL, AMZN, TSLA, MSFT
+2026-03-31 12:31:21,523 - INFO - Database path is: C:\Users\MUKUND\Desktop\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-31 12:31:21,523 - INFO - BaseStockFetcher initialized with database: C:\Users\MUKUND\Desktop\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-31 12:31:21,523 - INFO -  StockFetcher fully initialized with ALL operations:
+2026-03-31 12:31:21,524 - INFO -     Quote operations (current prices)
+2026-03-31 12:31:21,524 - INFO -     Historical operations (trends, moving averages)
+2026-03-31 12:31:21,524 - INFO -     Company operations (info, financials, analyst ratings)
+2026-03-31 12:31:21,524 - INFO -     Validator operations (symbol checking, suggestions)
+2026-03-31 12:31:21,524 - INFO - Database path is: C:\Users\MUKUND\Desktop\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-31 12:31:32,680 - INFO - ==================================================
+2026-03-31 12:31:32,680 - INFO -  Financial Data Service Configuration Loaded
+2026-03-31 12:31:32,680 - INFO - ==================================================
+2026-03-31 12:31:32,680 - INFO - Project root: C:\Users\MUKUND\Desktop\Financial-Intelligence-Agent-Platform-FIAP-\data
+2026-03-31 12:31:32,680 - INFO - Database: C:\Users\MUKUND\Desktop\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-31 12:31:32,680 - INFO - Tracking 5 stocks: GOOGL, AAPL, AMZN, TSLA, MSFT
+2026-03-31 12:31:32,690 - INFO - Database path is: C:\Users\MUKUND\Desktop\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-31 12:31:32,690 - INFO - BaseStockFetcher initialized with database: C:\Users\MUKUND\Desktop\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-31 12:31:32,691 - INFO -  StockFetcher fully initialized with ALL operations:
+2026-03-31 12:31:32,691 - INFO -     Quote operations (current prices)
+2026-03-31 12:31:32,691 - INFO -     Historical operations (trends, moving averages)
+2026-03-31 12:31:32,691 - INFO -     Company operations (info, financials, analyst ratings)
+2026-03-31 12:31:32,691 - INFO -     Validator operations (symbol checking, suggestions)
+2026-03-31 12:31:32,691 - INFO - Database path is: C:\Users\MUKUND\Desktop\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-31 12:31:39,732 - INFO - ==================================================
+2026-03-31 12:31:39,733 - INFO -  Financial Data Service Configuration Loaded
+2026-03-31 12:31:39,733 - INFO - ==================================================
+2026-03-31 12:31:39,733 - INFO - Project root: C:\Users\MUKUND\Desktop\Financial-Intelligence-Agent-Platform-FIAP-\data
+2026-03-31 12:31:39,733 - INFO - Database: C:\Users\MUKUND\Desktop\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-31 12:31:39,733 - INFO - Tracking 5 stocks: GOOGL, AAPL, AMZN, TSLA, MSFT
+2026-03-31 12:31:39,744 - INFO - Database path is: C:\Users\MUKUND\Desktop\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-31 12:31:39,745 - INFO - BaseStockFetcher initialized with database: C:\Users\MUKUND\Desktop\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-31 12:31:39,745 - INFO -  StockFetcher fully initialized with ALL operations:
+2026-03-31 12:31:39,745 - INFO -     Quote operations (current prices)
+2026-03-31 12:31:39,745 - INFO -     Historical operations (trends, moving averages)
+2026-03-31 12:31:39,745 - INFO -     Company operations (info, financials, analyst ratings)
+2026-03-31 12:31:39,745 - INFO -     Validator operations (symbol checking, suggestions)
+2026-03-31 12:31:39,745 - INFO - Database path is: C:\Users\MUKUND\Desktop\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-31 12:32:54,032 - INFO - ==================================================
+2026-03-31 12:32:54,032 - INFO -  Financial Data Service Configuration Loaded
+2026-03-31 12:32:54,032 - INFO - ==================================================
+2026-03-31 12:32:54,032 - INFO - Project root: C:\Users\MUKUND\Desktop\Financial-Intelligence-Agent-Platform-FIAP-\data
+2026-03-31 12:32:54,032 - INFO - Database: C:\Users\MUKUND\Desktop\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-31 12:32:54,032 - INFO - Tracking 5 stocks: GOOGL, AAPL, AMZN, TSLA, MSFT
+2026-03-31 12:32:54,044 - INFO - Database path is: C:\Users\MUKUND\Desktop\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-31 12:32:54,044 - INFO - BaseStockFetcher initialized with database: C:\Users\MUKUND\Desktop\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-31 12:32:54,044 - INFO -  StockFetcher fully initialized with ALL operations:
+2026-03-31 12:32:54,044 - INFO -     Quote operations (current prices)
+2026-03-31 12:32:54,044 - INFO -     Historical operations (trends, moving averages)
+2026-03-31 12:32:54,044 - INFO -     Company operations (info, financials, analyst ratings)
+2026-03-31 12:32:54,044 - INFO -     Validator operations (symbol checking, suggestions)
+2026-03-31 12:32:54,044 - INFO - Database path is: C:\Users\MUKUND\Desktop\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-31 12:33:57,412 - INFO - ==================================================
+2026-03-31 12:33:57,412 - INFO -  Financial Data Service Configuration Loaded
+2026-03-31 12:33:57,412 - INFO - ==================================================
+2026-03-31 12:33:57,412 - INFO - Project root: C:\Users\MUKUND\Desktop\Financial-Intelligence-Agent-Platform-FIAP-\data
+2026-03-31 12:33:57,412 - INFO - Database: C:\Users\MUKUND\Desktop\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-31 12:33:57,413 - INFO - Tracking 5 stocks: GOOGL, AAPL, AMZN, TSLA, MSFT
+2026-03-31 12:33:57,431 - INFO - Database path is: C:\Users\MUKUND\Desktop\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-31 12:33:57,431 - INFO - BaseStockFetcher initialized with database: C:\Users\MUKUND\Desktop\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-31 12:33:57,431 - INFO -  StockFetcher fully initialized with ALL operations:
+2026-03-31 12:33:57,431 - INFO -     Quote operations (current prices)
+2026-03-31 12:33:57,431 - INFO -     Historical operations (trends, moving averages)
+2026-03-31 12:33:57,431 - INFO -     Company operations (info, financials, analyst ratings)
+2026-03-31 12:33:57,431 - INFO -     Validator operations (symbol checking, suggestions)
+2026-03-31 12:33:57,431 - INFO - Database path is: C:\Users\MUKUND\Desktop\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-31 12:34:18,189 - INFO - Starting analysis for TSLA
+2026-03-31 12:34:18,190 - INFO - Fetching stock data
+2026-03-31 12:34:18,190 - INFO -  Using cached stock quote
+2026-03-31 12:34:18,190 - INFO - Fetching data for TSLA...
+2026-03-31 12:34:22,388 - INFO - Inserted stock price for TSLA: $355.28 (ID: 53)
+2026-03-31 12:34:22,389 - INFO - \u2705 Successfully fetched and stored TSLA: \u20b9$355.28
+2026-03-31 12:34:22,411 - INFO - \u26a1 Using cached moving average
+2026-03-31 12:34:22,411 - INFO - Fetching historical data for TSLA (period=28d, interval=1d)
+2026-03-31 12:34:23,371 - INFO -  Retrieved 28 historical records for TSLA
+2026-03-31 12:34:23,371 - INFO -  14-day MA for TSLA: $404.5085714285714
+2026-03-31 12:34:23,372 - INFO -  Indicators calculated: {'RSI': nan, 'MA14': np.float64(404.51), 'volatility': 0.043776214963403844}
+2026-03-31 12:34:23,376 - INFO - Using cached news from DB
+2026-03-31 12:34:23,379 - INFO -  Calculating new sentiment
+2026-03-31 12:34:26,479 - INFO - Inserted sentiment for news_id 6: positive
+2026-03-31 12:34:26,503 - INFO - Inserted sentiment for news_id 5: positive
+2026-03-31 12:34:26,524 - INFO - Inserted sentiment for news_id 4: positive
+2026-03-31 12:34:26,549 - INFO - Inserted sentiment for news_id 3: positive
+2026-03-31 12:34:26,550 - INFO - Sentiment: {'sentiment': 'Positive', 'score': 0.125, 'articles_analyzed': 1}
+2026-03-31 12:34:26,550 - INFO - Signal: {'signal': 'HOLD'}
+2026-03-31 12:34:29,176 - INFO - News Summary: Recent news for TSLA: Guess which ASX All Ords stock is jumping higher today on big Tesla news | GTC\u5927\u6703\u767b\u5834\uff01\u7f8e\u80a1\u56db\u5927\u6307\u6578\u5168\u9762\u8d70\u9ad8\u3001\u8f1d\u9054\u5f37\u6f322.66%\u3000\u53f0\u7a4d\u96fbADR\u5927\u6f321.83% | \u99ac\u65af\u514b\u8c6a\u8a00\uff0cSpaceX AI\u5be6\u529b\u5c07\u8d85\u8d8a\u6240\u6709\u7af6\u722d\u8005\u7e3d\u548c
+2026-03-31 12:34:31,506 - INFO - Inserted report for TSLA (ID: 19)

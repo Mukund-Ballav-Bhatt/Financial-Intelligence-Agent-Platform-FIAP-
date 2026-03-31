@@ -4,6 +4,7 @@ from backend.agents.report_agent import ReportAgent
 from backend.agents.analysis_agent import AnalysisAgent
 from backend.agents.sentiment_agent import SentimentAgent
 from backend.agents.strategy_agent import StrategyAgent
+from backend.agents.llm_agent import summarize_news
 
 from backend.utils.logger import logger
 
@@ -160,14 +161,25 @@ class StockAnalysisPipeline:
 
         logger.info(f"Signal: {signal}")
 
+        #  LLM NEWS SUMMARY
+        news_summary = summarize_news(
+            ticker=ticker,
+            headlines=news,
+            price=float(quote["price"]),
+            signal=signal["signal"] if isinstance(signal, dict) else signal
+        )
+
+        logger.info(f"News Summary: {news_summary}")
+
         # 6 Report
         report = self.report_agent.generate(
-            ticker,
+             ticker,
             float(quote["price"]),
             indicators,
             sentiment,
-            signal
-        )
+            signal,
+            news_summary   
+)
         # 7.  Save Report
         self.db.insert_report(
             symbol=ticker,

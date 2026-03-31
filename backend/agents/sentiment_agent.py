@@ -2,6 +2,7 @@ from textblob import TextBlob
 import re
 import statistics
 
+from backend.agents.llm_agent import llm_sentiment
 
 class SentimentAgent:
     """Generic sentiment analyzer for news headlines"""
@@ -39,8 +40,19 @@ class SentimentAgent:
         return (0.1 * len(pos_hits)) - (0.1 * len(neg_hits))
 
     def analyze(self, headlines):
-        """Analyze sentiment of a list of headlines"""
+        """Analyze sentiment using LLM first, fallback to rule-based"""
 
+    # 🔥 STEP 1: Try LLM
+        llm_result = llm_sentiment(headlines)
+
+        if llm_result:
+            return {
+            "sentiment": llm_result.get("sentiment", "Neutral"),
+            "score": llm_result.get("score", 0.5),
+            "articles_analyzed": len(headlines),
+            "source": "llm"
+
+        }
         scores = []
 
         for headline in headlines:
