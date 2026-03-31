@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import axios from "axios";
+import jsPDF from "jspdf";
 import {
 LineChart,
 Line,
@@ -49,7 +50,22 @@ setLoading(false);
 }
 
 };
+/*Download <pdf></pdf>*/
+const downloadPDF = () => {
 
+  const doc = new jsPDF();
+
+  doc.text("AI Financial Report", 10, 10);
+
+  doc.text(`Ticker: ${data.ticker}`, 10, 20);
+  doc.text(`Price: ${data.price}`, 10, 30);
+
+  doc.text("Report:", 10, 40);
+
+  doc.text(data.report, 10, 50);
+
+  doc.save(`${data.ticker}_report.pdf`);
+};
 return (
 
 <div className="container">
@@ -119,8 +135,12 @@ onKeyDown={(e) => {
 
 <h2>AI Stock Report</h2>
 
-<pre>{data.report}</pre>
-
+<p style={{ whiteSpace: "pre-line" }}>
+  {data.report}
+</p>
+<button onClick={downloadPDF} className="downloadBtn">
+  Download PDF
+</button>
 </div>
 
 {/* CHART */}
@@ -192,5 +212,6 @@ strokeWidth={3}
 );
 
 }
+
 
 export default App;

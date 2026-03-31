@@ -746,3 +746,35 @@
 2026-03-18 07:57:07,588 - INFO -     Company operations (info, financials, analyst ratings)
 2026-03-18 07:57:07,588 - INFO -     Validator operations (symbol checking, suggestions)
 2026-03-18 07:57:07,588 - INFO - Database path is: C:\Users\MUKUND\Desktop\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-31 12:24:44,076 - INFO - ==================================================
+2026-03-31 12:24:44,078 - INFO -  Financial Data Service Configuration Loaded
+2026-03-31 12:24:44,078 - INFO - ==================================================
+2026-03-31 12:24:44,078 - INFO - Project root: C:\Users\yadav\OneDrive\Desktop\Financial-Intelligence-Agent-Platform-FIAP-\data
+2026-03-31 12:24:44,078 - INFO - Database: C:\Users\yadav\OneDrive\Desktop\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-31 12:24:44,078 - INFO - Tracking 5 stocks: GOOGL, AAPL, AMZN, TSLA, MSFT
+2026-03-31 12:24:44,306 - INFO - Database path is: C:\Users\yadav\OneDrive\Desktop\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-31 12:24:44,306 - INFO - BaseStockFetcher initialized with database: C:\Users\yadav\OneDrive\Desktop\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-31 12:24:44,306 - INFO -  StockFetcher fully initialized with ALL operations:
+2026-03-31 12:24:44,306 - INFO -     Quote operations (current prices)
+2026-03-31 12:24:44,307 - INFO -     Historical operations (trends, moving averages)
+2026-03-31 12:24:44,307 - INFO -     Company operations (info, financials, analyst ratings)
+2026-03-31 12:24:44,307 - INFO -     Validator operations (symbol checking, suggestions)
+2026-03-31 12:24:44,307 - INFO - Database path is: C:\Users\yadav\OneDrive\Desktop\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-31 12:34:55,757 - INFO - Starting analysis for AAPL
+2026-03-31 12:34:55,758 - INFO - Fetching stock data
+2026-03-31 12:34:55,758 - INFO -  Using cached stock quote
+2026-03-31 12:34:55,758 - INFO - Fetching data for AAPL...
+2026-03-31 12:34:58,388 - INFO - Inserted stock price for AAPL: $246.63 (ID: 52)
+2026-03-31 12:34:58,388 - INFO - \u2705 Successfully fetched and stored AAPL: \u20b9$246.63
+2026-03-31 12:34:58,401 - INFO - \u26a1 Using cached moving average
+2026-03-31 12:34:58,401 - INFO - Fetching historical data for AAPL (period=28d, interval=1d)
+2026-03-31 12:34:59,024 - INFO -  Retrieved 28 historical records for AAPL
+2026-03-31 12:34:59,024 - INFO -  14-day MA for AAPL: $264.5921428571429
+2026-03-31 12:34:59,025 - INFO -  Indicators calculated: {'RSI': 0.0, 'MA14': np.float64(264.59), 'volatility': 0.07178613905078719}
+2026-03-31 12:34:59,026 - INFO - Using cached news from DB
+2026-03-31 12:34:59,027 - INFO -  Calculating new sentiment
+2026-03-31 12:34:59,080 - INFO - Inserted sentiment for news_id 2: neutral
+2026-03-31 12:34:59,091 - INFO - Inserted sentiment for news_id 1: neutral
+2026-03-31 12:34:59,091 - INFO - Sentiment: {'sentiment': 'Neutral', 'score': 0.068, 'articles_analyzed': 2}
+2026-03-31 12:34:59,091 - INFO - Signal: {'signal': 'BUY'}
+2026-03-31 12:34:59,108 - INFO - Inserted report for AAPL (ID: 18)
