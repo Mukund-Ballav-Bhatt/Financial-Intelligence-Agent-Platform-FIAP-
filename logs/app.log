@@ -746,3 +746,97 @@
 2026-03-18 07:57:07,588 - INFO -     Company operations (info, financials, analyst ratings)
 2026-03-18 07:57:07,588 - INFO -     Validator operations (symbol checking, suggestions)
 2026-03-18 07:57:07,588 - INFO - Database path is: C:\Users\MUKUND\Desktop\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-18 10:35:28,716 - INFO - ==================================================
+2026-03-18 10:35:28,716 - INFO -  Financial Data Service Configuration Loaded
+2026-03-18 10:35:28,716 - INFO - ==================================================
+2026-03-18 10:35:28,716 - INFO - Project root: C:\Users\yadav\OneDrive\Desktop\Financial-Intelligence-Agent-Platform-FIAP-\data
+2026-03-18 10:35:28,716 - INFO - Database: C:\Users\yadav\OneDrive\Desktop\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-18 10:35:28,716 - INFO - Tracking 5 stocks: GOOGL, AAPL, AMZN, TSLA, MSFT
+2026-03-18 10:35:28,818 - INFO - Database path is: C:\Users\yadav\OneDrive\Desktop\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-18 10:35:28,818 - INFO - BaseStockFetcher initialized with database: C:\Users\yadav\OneDrive\Desktop\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-18 10:35:28,818 - INFO -  StockFetcher fully initialized with ALL operations:
+2026-03-18 10:35:28,818 - INFO -     Quote operations (current prices)
+2026-03-18 10:35:28,818 - INFO -     Historical operations (trends, moving averages)
+2026-03-18 10:35:28,818 - INFO -     Company operations (info, financials, analyst ratings)
+2026-03-18 10:35:28,818 - INFO -     Validator operations (symbol checking, suggestions)
+2026-03-18 10:35:28,818 - INFO - Database path is: C:\Users\yadav\OneDrive\Desktop\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-18 10:35:45,892 - INFO - Starting analysis for AAPL
+2026-03-18 10:35:45,893 - INFO - Fetching stock data
+2026-03-18 10:35:45,893 - INFO -  Using cached stock quote
+2026-03-18 10:35:45,893 - INFO - Fetching data for AAPL...
+2026-03-18 10:35:47,881 - INFO - Inserted stock price for AAPL: $254.23 (ID: 52)
+2026-03-18 10:35:47,882 - INFO - \u2705 Successfully fetched and stored AAPL: \u20b9$254.23
+2026-03-18 10:35:47,898 - INFO - \u26a1 Using cached moving average
+2026-03-18 10:35:47,899 - INFO - Fetching historical data for AAPL (period=28d, interval=1d)
+2026-03-18 10:35:48,314 - INFO -  Retrieved 28 historical records for AAPL
+2026-03-18 10:35:48,315 - INFO -  14-day MA for AAPL: $268.62571428571425
+2026-03-18 10:35:48,315 - INFO -  Indicators calculated: {'RSI': 0.0, 'MA14': np.float64(268.63), 'volatility': 0.07104551283337655}
+2026-03-18 10:35:48,317 - INFO - Using cached news from DB
+2026-03-18 10:35:48,320 - INFO -  Calculating new sentiment
+2026-03-18 10:35:48,444 - INFO - Inserted sentiment for news_id 2: neutral
+2026-03-18 10:35:48,456 - INFO - Inserted sentiment for news_id 1: neutral
+2026-03-18 10:35:48,457 - INFO - Sentiment: {'sentiment': 'Neutral', 'score': 0.068, 'articles_analyzed': 2}
+2026-03-18 10:35:48,457 - INFO - Signal: {'signal': 'BUY'}
+2026-03-18 10:35:48,470 - INFO - Inserted report for AAPL (ID: 18)
+2026-03-31 11:30:03,744 - INFO - ==================================================
+2026-03-31 11:30:03,746 - INFO -  Financial Data Service Configuration Loaded
+2026-03-31 11:30:03,746 - INFO - ==================================================
+2026-03-31 11:30:03,746 - INFO - Project root: C:\Users\yadav\OneDrive\Desktop\Financial-Intelligence-Agent-Platform-FIAP-\data
+2026-03-31 11:30:03,746 - INFO - Database: C:\Users\yadav\OneDrive\Desktop\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-31 11:30:03,746 - INFO - Tracking 5 stocks: GOOGL, AAPL, AMZN, TSLA, MSFT
+2026-03-31 11:30:03,865 - INFO - Database path is: C:\Users\yadav\OneDrive\Desktop\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-31 11:30:03,866 - INFO - BaseStockFetcher initialized with database: C:\Users\yadav\OneDrive\Desktop\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-31 11:30:03,866 - INFO -  StockFetcher fully initialized with ALL operations:
+2026-03-31 11:30:03,866 - INFO -     Quote operations (current prices)
+2026-03-31 11:30:03,866 - INFO -     Historical operations (trends, moving averages)
+2026-03-31 11:30:03,866 - INFO -     Company operations (info, financials, analyst ratings)
+2026-03-31 11:30:03,867 - INFO -     Validator operations (symbol checking, suggestions)
+2026-03-31 11:30:03,867 - INFO - Database path is: C:\Users\yadav\OneDrive\Desktop\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-31 11:30:20,361 - INFO - Starting analysis for AAPL
+2026-03-31 11:30:20,362 - INFO - Fetching stock data
+2026-03-31 11:30:20,363 - INFO -  Using cached stock quote
+2026-03-31 11:30:20,363 - INFO - Fetching data for AAPL...
+2026-03-31 11:30:21,036 - INFO - Starting analysis for AAPL
+2026-03-31 11:30:21,037 - INFO - Fetching stock data
+2026-03-31 11:30:21,037 - INFO -  Using cached stock quote
+2026-03-31 11:30:21,038 - INFO - Fetching data for AAPL...
+2026-03-31 11:30:24,785 - INFO - Inserted stock price for AAPL: $246.63 (ID: 53)
+2026-03-31 11:30:24,791 - INFO - \u2705 Successfully fetched and stored AAPL: \u20b9$246.63
+2026-03-31 11:30:24,868 - INFO - \u26a1 Using cached moving average
+2026-03-31 11:30:24,869 - INFO - Fetching historical data for AAPL (period=28d, interval=1d)
+2026-03-31 11:30:25,136 - INFO - Inserted stock price for AAPL: $246.63 (ID: 54)
+2026-03-31 11:30:25,138 - INFO - \u2705 Successfully fetched and stored AAPL: \u20b9$246.63
+2026-03-31 11:30:25,176 - INFO - \u26a1 Using cached moving average
+2026-03-31 11:30:25,176 - INFO - Fetching historical data for AAPL (period=28d, interval=1d)
+2026-03-31 11:30:36,632 - INFO -  Retrieved 28 historical records for AAPL
+2026-03-31 11:30:36,637 - INFO -  14-day MA for AAPL: $264.5921428571429
+2026-03-31 11:30:36,641 - INFO -  Indicators calculated: {'RSI': 0.0, 'MA14': np.float64(264.59), 'volatility': 0.06994853068678732}
+2026-03-31 11:30:36,666 - INFO -  Retrieved 28 historical records for AAPL
+2026-03-31 11:30:36,667 - INFO -  14-day MA for AAPL: $264.5921428571429
+2026-03-31 11:30:36,667 - INFO -  Indicators calculated: {'RSI': 0.0, 'MA14': np.float64(264.59), 'volatility': 0.06824525555678615}
+2026-03-31 11:30:36,678 - INFO - Using cached news from DB
+2026-03-31 11:30:36,689 - INFO - Using cached news from DB
+2026-03-31 11:30:36,693 - INFO -  Calculating new sentiment
+2026-03-31 11:30:36,697 - INFO -  Calculating new sentiment
+2026-03-31 11:30:37,054 - INFO - Inserted sentiment for news_id 2: neutral
+2026-03-31 11:30:37,077 - INFO - Inserted sentiment for news_id 2: neutral
+2026-03-31 11:30:37,115 - INFO - Inserted sentiment for news_id 1: neutral
+2026-03-31 11:30:37,116 - INFO - Sentiment: {'sentiment': 'Neutral', 'score': 0.068, 'articles_analyzed': 2}
+2026-03-31 11:30:37,116 - INFO - Signal: {'signal': 'BUY'}
+2026-03-31 11:30:37,147 - INFO - Inserted sentiment for news_id 1: neutral
+2026-03-31 11:30:37,149 - INFO - Sentiment: {'sentiment': 'Neutral', 'score': 0.068, 'articles_analyzed': 2}
+2026-03-31 11:30:37,149 - INFO - Signal: {'signal': 'BUY'}
+2026-03-31 11:30:37,177 - INFO - Inserted report for AAPL (ID: 19)
+2026-03-31 11:30:37,209 - INFO - Inserted report for AAPL (ID: 20)
+2026-03-31 11:39:27,665 - INFO - Starting analysis for TSLA
+2026-03-31 11:39:27,665 - INFO - Fetching stock data
+2026-03-31 11:39:27,666 - INFO -  Using cached stock quote
+2026-03-31 11:39:27,666 - INFO - Fetching data for TSLA...
+2026-03-31 11:39:57,681 - ERROR - Error fetching TSLA: Failed to perform, curl: (28) Connection timed out after 30012 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-03-31 11:39:57,681 - ERROR - No stock data available for TSLA
+2026-03-31 11:40:45,410 - INFO - Starting analysis for TSLA
+2026-03-31 11:40:45,410 - INFO - Fetching stock data
+2026-03-31 11:40:45,410 - ERROR - No stock data available for TSLA
+2026-03-31 11:40:53,135 - INFO - Starting analysis for TSLA
+2026-03-31 11:40:53,135 - INFO - Fetching stock data
+2026-03-31 11:40:53,135 - ERROR - No stock data available for TSLA
