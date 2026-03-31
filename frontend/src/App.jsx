@@ -137,7 +137,12 @@ onKeyDown={(e) => {
 
 <XAxis dataKey="day" />
 
-<YAxis />
+<YAxis 
+  domain={[
+    (dataMin) => dataMin - 5,
+    (dataMax) => dataMax + 5
+  ]}
+/>
 
 <Tooltip />
 
