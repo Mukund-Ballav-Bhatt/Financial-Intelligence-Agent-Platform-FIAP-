@@ -746,3 +746,43 @@
 2026-03-18 07:57:07,588 - INFO -     Company operations (info, financials, analyst ratings)
 2026-03-18 07:57:07,588 - INFO -     Validator operations (symbol checking, suggestions)
 2026-03-18 07:57:07,588 - INFO - Database path is: C:\Users\MUKUND\Desktop\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-31 11:25:01,089 - INFO - ==================================================
+2026-03-31 11:25:01,090 - INFO -  Financial Data Service Configuration Loaded
+2026-03-31 11:25:01,090 - INFO - ==================================================
+2026-03-31 11:25:01,090 - INFO - Project root: C:\Users\MUKUND\Desktop\Financial-Intelligence-Agent-Platform-FIAP-\data
+2026-03-31 11:25:01,090 - INFO - Database: C:\Users\MUKUND\Desktop\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-31 11:25:01,090 - INFO - Tracking 5 stocks: GOOGL, AAPL, AMZN, TSLA, MSFT
+2026-03-31 11:28:06,580 - INFO - ==================================================
+2026-03-31 11:28:06,581 - INFO -  Financial Data Service Configuration Loaded
+2026-03-31 11:28:06,581 - INFO - ==================================================
+2026-03-31 11:28:06,581 - INFO - Project root: C:\Users\MUKUND\Desktop\Financial-Intelligence-Agent-Platform-FIAP-\data
+2026-03-31 11:28:06,581 - INFO - Database: C:\Users\MUKUND\Desktop\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-31 11:28:06,582 - INFO - Tracking 5 stocks: GOOGL, AAPL, AMZN, TSLA, MSFT
+2026-03-31 11:28:06,613 - INFO - Database path is: C:\Users\MUKUND\Desktop\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-31 11:28:06,613 - INFO - BaseStockFetcher initialized with database: C:\Users\MUKUND\Desktop\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-31 11:28:06,613 - INFO -  StockFetcher fully initialized with ALL operations:
+2026-03-31 11:28:06,614 - INFO -     Quote operations (current prices)
+2026-03-31 11:28:06,614 - INFO -     Historical operations (trends, moving averages)
+2026-03-31 11:28:06,614 - INFO -     Company operations (info, financials, analyst ratings)
+2026-03-31 11:28:06,614 - INFO -     Validator operations (symbol checking, suggestions)
+2026-03-31 11:28:06,614 - INFO - Database path is: C:\Users\MUKUND\Desktop\Financial-Intelligence-Agent-Platform-FIAP-\data\financial_data.db
+2026-03-31 11:28:07,004 - INFO - Starting analysis for TSLA
+2026-03-31 11:28:07,005 - INFO - Fetching stock data
+2026-03-31 11:28:07,005 - INFO -  Using cached stock quote
+2026-03-31 11:28:07,005 - INFO - Fetching data for TSLA...
+2026-03-31 11:28:10,810 - INFO - Inserted stock price for TSLA: $355.28 (ID: 52)
+2026-03-31 11:28:10,811 - INFO - \u2705 Successfully fetched and stored TSLA: \u20b9$355.28
+2026-03-31 11:28:10,828 - INFO - \u26a1 Using cached moving average
+2026-03-31 11:28:10,828 - INFO - Fetching historical data for TSLA (period=28d, interval=1d)
+2026-03-31 11:28:16,825 - INFO -  Retrieved 28 historical records for TSLA
+2026-03-31 11:28:16,825 - INFO -  14-day MA for TSLA: $404.5085714285714
+2026-03-31 11:28:16,825 - INFO -  Indicators calculated: {'RSI': nan, 'MA14': np.float64(404.51), 'volatility': 0.04679874230937826}
+2026-03-31 11:28:16,827 - INFO - Using cached news from DB
+2026-03-31 11:28:16,829 - INFO -  Calculating new sentiment
+2026-03-31 11:28:16,925 - INFO - Inserted sentiment for news_id 6: positive
+2026-03-31 11:28:16,936 - INFO - Inserted sentiment for news_id 5: positive
+2026-03-31 11:28:16,949 - INFO - Inserted sentiment for news_id 4: positive
+2026-03-31 11:28:16,962 - INFO - Inserted sentiment for news_id 3: positive
+2026-03-31 11:28:16,963 - INFO - Sentiment: {'sentiment': 'Positive', 'score': 0.125, 'articles_analyzed': 1}
+2026-03-31 11:28:16,963 - INFO - Signal: {'signal': 'HOLD'}
+2026-03-31 11:28:16,974 - INFO - Inserted report for TSLA (ID: 18)
