@@ -14,3 +14,6 @@ logs/
 
 # Node
 node_modules/
+
+.DS_Store
+*.zip

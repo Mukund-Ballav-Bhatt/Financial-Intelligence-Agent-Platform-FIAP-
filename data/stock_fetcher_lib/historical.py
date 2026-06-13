@@ -33,7 +33,7 @@ class HistoricalOperations(BaseStockFetcher):
                 })
             
             logger.info(f" Retrieved {len(result)} historical records for {symbol}")
-            return result
+            return result  # ordered oldest → newest
             
         except Exception as e:
             logger.error(f"Error fetching historical data for {symbol}: {e}")
@@ -57,8 +57,8 @@ class HistoricalOperations(BaseStockFetcher):
             logger.warning(f"Not enough historical data for {symbol} trend analysis")
             return None
         
-        first_price = data[-1]['close']  
-        last_price = data[0]['close']     
+        first_price = data[0]['close']   # oldest price (start of period)
+        last_price = data[-1]['close']   # newest price (end of period)
         
         prices = [d['close'] for d in data]
         high = max(prices)
@@ -79,8 +79,8 @@ class HistoricalOperations(BaseStockFetcher):
         result = {
             'symbol': symbol,
             'analysis_period': f"Last {len(data)} trading days",
-            'start_date': data[-1]['date'],
-            'end_date': data[0]['date'],
+            'start_date': data[0]['date'],    # oldest date
+            'end_date': data[-1]['date'],     # newest date
             'start_price': first_price,
             'end_price': last_price,
             'price_change': round(last_price - first_price, 2),
@@ -109,11 +109,11 @@ class HistoricalOperations(BaseStockFetcher):
             logger.warning(f"Not enough data for {days}-day moving average for {symbol}")
             return None
         
-        recent = data[:days]
+        recent = data[-days:]              # most recent N days
         closes = [d['close'] for d in recent]
         ma_value = sum(closes) / len(closes)
         
-        current_price = data[0]['close']
+        current_price = data[-1]['close']  # newest price
         
         result = {
             'symbol': symbol,
@@ -123,7 +123,7 @@ class HistoricalOperations(BaseStockFetcher):
             'difference': round(current_price - ma_value, 2),
             'difference_percent': round(((current_price - ma_value) / ma_value) * 100, 2),
             'position': "ABOVE" if current_price > ma_value else "BELOW" if current_price < ma_value else "EQUAL",
-            'calculation_date': data[0]['date'],
+            'calculation_date': data[-1]['date'],   # newest date
             'days_used': min(days, len(recent))
         }
         
@@ -144,11 +144,11 @@ class HistoricalOperations(BaseStockFetcher):
         if not data:
             return None
         
-        result['current_price'] = data[0]['close']
+        result['current_price'] = data[-1]['close']   # newest price
         
         for period in periods:
             if len(data) >= period:
-                recent = data[:period]
+                recent = data[-period:]               # most recent N days
                 closes = [d['close'] for d in recent]
                 ma_value = sum(closes) / len(closes)
                 
@@ -173,11 +173,12 @@ class HistoricalOperations(BaseStockFetcher):
         if not data or len(data) < 2:
             return None
         
+        # data is oldest→newest, so data[i+1] is the next trading day
         returns = []
         for i in range(len(data) - 1):
-            daily_return = ((data[i]['close'] - data[i+1]['close']) / data[i+1]['close']) * 100
+            daily_return = ((data[i+1]['close'] - data[i]['close']) / data[i]['close']) * 100
             returns.append({
-                'date': data[i]['date'],
+                'date': data[i+1]['date'],
                 'return': round(daily_return, 2)
             })
         
@@ -192,7 +193,7 @@ class HistoricalOperations(BaseStockFetcher):
             'max_daily_loss': min(return_values),
             'positive_days': len([r for r in return_values if r > 0]),
             'negative_days': len([r for r in return_values if r < 0]),
-            'daily_returns': returns[:10] 
+            'daily_returns': returns[:10]
         }
         
         return result

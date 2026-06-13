@@ -33,27 +33,25 @@ class StockAnalysisPipeline:
 
     @lru_cache(maxsize=50)
     def get_cached_quote(self, ticker):
-        logger.info(" Using cached stock quote")
+        logger.info("Using cached stock quote")
         return self.fetcher.get_quote_summary(ticker)
-        
+
     @lru_cache(maxsize=50)
     def get_cached_ma(self, ticker):
-        logger.info("⚡ Using cached moving average")
+        logger.info("Using cached moving average")
         return self.fetcher.get_moving_average(ticker, days=14)
-        
+
     def get_cached_sentiment(self, ticker, news):
         current_time = time.time()
 
         if ticker in self.sentiment_cache:
             data, timestamp = self.sentiment_cache[ticker]
-
             if current_time - timestamp < self.cache_ttl:
-                 logger.info("Using cached sentiment")
-                 return data
+                logger.info("Using cached sentiment")
+                return data
 
         sentiment = self.sentiment_agent.analyze(news)
         self.sentiment_cache[ticker] = (sentiment, current_time)
-
         return sentiment
 
     def get_chart_data(self, ticker):
@@ -67,7 +65,6 @@ class StockAnalysisPipeline:
                     "day": date.strftime("%a"),
                     "price": round(row["Close"], 2)
                 })
-
             return chart
 
         except Exception as e:
@@ -78,38 +75,65 @@ class StockAnalysisPipeline:
 
         logger.info(f"Starting analysis for {ticker}")
 
-        # 1. Get latest stock price (Person 2)
+        # ── 1. Get latest stock quote ──────────────────────────
         logger.info("Fetching stock data")
         quote = self.get_cached_quote(ticker)
 
-        
         from fastapi import HTTPException
         if not quote:
             logger.error(f"No stock data available for {ticker}")
-            raise HTTPException(status_code=404, detail=f"No stock data available for {ticker}")
+            raise HTTPException(
+                status_code=404,
+                detail=f"No stock data available for {ticker}"
+            )
 
-        # 2. Get historical prices (Person 2)
+        # ── 2. Get historical prices ───────────────────────────
+        # Try DB first, fall back to live yfinance if empty/insufficient
         history = self.db.get_price_hist(ticker, limit=30)
 
-        if not history:
-            return {"error": "Not enough historical data"}
+        if history and len(history) >= 15:
+            # Enough data in DB — use it
+            prices = [h["price"] for h in history]
+            logger.info(f"Using {len(prices)} historical prices from DB")
 
-        prices = [h["price"] for h in history]
+        else:
+            # DB empty or not enough — fetch live historical from yfinance
+            logger.info("DB insufficient — fetching live historical prices from yfinance")
+            raw = self.fetcher.get_historical_data(ticker, period="3mo")
+            prices = [d["close"] for d in raw]  # extract close prices correctly
 
-        # 3.  analysis
+            if len(prices) < 15:
+                logger.error(f"Not enough historical data for {ticker}")
+                raise HTTPException(
+                    status_code=400,
+                    detail=f"Not enough historical data for {ticker}"
+                )
+
+            # Save to DB for next time
+            for d in raw:
+                self.db.insert_stock_price(
+                    symbol=ticker,
+                    price=d["close"]
+                )
+
+            logger.info(f"Saved {len(prices)} prices to DB for {ticker}")
+
+        logger.info(f"Using {len(prices)} historical prices for analysis")
+
+        # ── 3. Technical analysis ──────────────────────────────
         indicators = self.analysis_agent.analyse(prices)
 
         if not indicators:
             return {"error": "Indicator calculation failed"}
 
-        # OPTIONAL: Override MA from Person 2
+        # Override MA14 with fetcher's calculation (more accurate)
         ma_data = self.get_cached_ma(ticker)
         if ma_data:
             indicators["MA14"] = ma_data["ma_value"]
 
-        logger.info(f" Indicators calculated: {indicators}")
+        logger.info(f"Indicators calculated: {indicators}")
 
-        # 4. News + Sentiment
+        # ── 4. News + Sentiment ────────────────────────────────
         stored_news = self.db.get_news_for_symbol(ticker, limit=10)
 
         if stored_news:
@@ -133,8 +157,7 @@ class StockAnalysisPipeline:
         sentiment_data = self.db.get_aggregate_sentiment(ticker)
 
         if sentiment_data and sentiment_data["total_articles"] > 0:
-            logger.info(" Using stored sentiment")
-
+            logger.info("Using stored sentiment from DB")
             sentiment = {
                 "sentiment": sentiment_data["overall_sentiment"].capitalize(),
                 "score": sentiment_data["sentiment_score"],
@@ -142,11 +165,9 @@ class StockAnalysisPipeline:
             }
 
         else:
-            logger.info(" Calculating new sentiment")
-
+            logger.info("Calculating new sentiment")
             sentiment = self.get_cached_sentiment(ticker, news)
 
-            # Save sentiment per article
             for news_id in news_ids:
                 self.db.insert_sentiment(
                     news_id=news_id,
@@ -156,31 +177,30 @@ class StockAnalysisPipeline:
 
         logger.info(f"Sentiment: {sentiment}")
 
-        # 5. Strategy
+        # ── 5. Strategy signal ─────────────────────────────────
         signal = self.strategy_agent.generate_signal(indicators, sentiment)
-
         logger.info(f"Signal: {signal}")
 
-        #  LLM NEWS SUMMARY
+        # ── 6. LLM news summary ────────────────────────────────
         news_summary = summarize_news(
             ticker=ticker,
             headlines=news,
             price=float(quote["price"]),
             signal=signal["signal"] if isinstance(signal, dict) else signal
         )
-
         logger.info(f"News Summary: {news_summary}")
 
-        # 6 Report
+        # ── 7. Generate report ─────────────────────────────────
         report = self.report_agent.generate(
-             ticker,
+            ticker,
             float(quote["price"]),
             indicators,
             sentiment,
             signal,
-            news_summary   
-)
-        # 7.  Save Report
+            news_summary
+        )
+
+        # ── 8. Save report to DB ───────────────────────────────
         self.db.insert_report(
             symbol=ticker,
             price=quote["price"],
@@ -189,7 +209,7 @@ class StockAnalysisPipeline:
             tags=signal["signal"]
         )
 
-        # 8. Chart
+        # ── 9. Chart data ──────────────────────────────────────
         chart_data = self.get_chart_data(ticker)
 
         return {

@@ -1,32 +1,34 @@
 import os
-import requests
 from dotenv import load_dotenv
+from data.news_fetcher_lib.manager import NewsFetcher
 
 load_dotenv()
 
 NEWS_API_KEY = os.getenv("NEWS_API_KEY")
 
+TICKER_TO_COMPANY = {
+    "TSLA": "Tesla", "AAPL": "Apple", "GOOGL": "Google",
+    "MSFT": "Microsoft", "AMZN": "Amazon", "NVDA": "NVIDIA",
+    "META": "Meta", "NFLX": "Netflix",
+}
+
 def get_news(company):
-    try:
-        url = "https://newsapi.org/v2/everything"
+    # Convert ticker to company name
+    query = TICKER_TO_COMPANY.get(company.upper(), company)
 
-        params = {
-            "q": company,
-            "apiKey": NEWS_API_KEY,
-            "pageSize": 5,
-            "sortBy": "publishedAt"
-        }
+    fetcher = NewsFetcher(api_key=NEWS_API_KEY)
 
-        response = requests.get(url, params=params)
-        response.raise_for_status()
+    # fetch + clean + filter relevance in one call
+    articles = fetcher.fetch_and_process(query, days_back=3, page_size=10)
 
-        data = response.json()
+    # Return just headlines for your sentiment agent
+    headlines = [a["headline"] for a in articles if a.get("headline")]
 
-        articles = data["articles"]
-        headlines = [article["title"] for article in articles]
+    return headlines[:5]
 
-        return headlines
 
-    except Exception as e:
-        print("News fetch error:", e)
-        return []
+def get_news_full(company):
+    """Use this if you want full article data for DB storage."""
+    query = TICKER_TO_COMPANY.get(company.upper(), company)
+    fetcher = NewsFetcher(api_key=NEWS_API_KEY)
+    return fetcher.get_news_with_sentiment_ready(query)
