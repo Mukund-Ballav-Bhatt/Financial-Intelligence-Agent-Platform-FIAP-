@@ -1,3 +1,4 @@
+from backend.utils.logger import logger
 import pandas as pd
 
 class AnalysisAgent:
@@ -38,13 +39,29 @@ class AnalysisAgent:
 
         # Final NaN guard — return neutral RSI of 50
         return float(result) if not pd.isna(result) else 50.0
+    
+    def _validate_prices(self, prices):
+        """Internal helper to ensure data integrity."""
+        if not isinstance(prices, list) or len(prices) < 2:
+            logger.error("AUDIT | AnalysisAgent | Received insufficient data points.")
+            return False
+        return True
 
     def analyse(self, prices):
-        if not prices or len(prices) < 2:
-            return {"RSI": 50.0, "MA14": 0.0, "volatility": 0.0}
+        # Validation Layer 
+        if not self._validate_prices(prices):
+            return {"error": "Insufficient data"}
 
-        return {
-            "RSI": self.rsi(prices),
-            "MA14": self.moving_average(prices),
-            "volatility": self.volatility(prices)
-        }
+        try:
+            results = {
+                "RSI": self.rsi(prices),
+                "MA14": self.moving_average(prices),
+                "volatility": self.volatility(prices)
+            }
+            
+            logger.info(f"AUDIT | AnalysisAgent | Success | Output: {results}")
+            return results
+            
+        except Exception as e:
+            logger.error(f"AUDIT | AnalysisAgent | Failure | Reason: {str(e)}")
+            return {"error": "Calculation exception"}
