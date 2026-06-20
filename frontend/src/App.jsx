@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import axios from "axios";
+import jsPDF from "jspdf";
 import {
 LineChart,
 Line,
@@ -18,58 +19,138 @@ const [data, setData] = useState(null);
 const [loading, setLoading] = useState(false);
 const [chartData, setChartData] = useState([]);
 
+const [error, setError] = useState("");  
+
 const analyzeStock = async () => {
+  setError("");  // clear previous error
 
-if (!ticker) {
-alert("Please enter stock ticker");
-return;
-}
+  if (!ticker || ticker.trim().length === 0) {
+    setError("Please enter a valid ticker symbol (e.g. TSLA, AAPL)");
+    return;
+  }
 
-try {
+  try {
+    setLoading(true);
+    const response = await axios.get(
+      `http://127.0.0.1:8000/analyze/${ticker.trim().toUpperCase()}`
+    );
+    setData(response.data);
+    setChartData(response.data.chart || []);
+    setLoading(false);
 
-setLoading(true);
-
-const response = await axios.get(
-`http://localhost:8000/report?ticker=${ticker}`
-);
-
-setData(response.data);
-
-/* Sample chart data */
-const sampleChart = [
-{ day: "Mon", price: 100 },
-{ day: "Tue", price: 105 },
-{ day: "Wed", price: 102 },
-{ day: "Thu", price: 108 },
-{ day: "Fri", price: 110 }
-];
-
-setChartData(sampleChart);
-
-setLoading(false);
-
-} catch (error) {
-
-console.error(error);
-alert("Error connecting to backend");
-setLoading(false);
-
-}
-
+  } catch (error) {
+    console.error(error);
+    setError("Please enter a valid ticker symbol (e.g. TSLA, AAPL)");
+    setLoading(false);
+  }
 };
+/*Download <pdf></pdf>*/
+const downloadPDF = () => {
+  const doc = new jsPDF();
+  const margin = 10;
+  const pageWidth = doc.internal.pageSize.getWidth();
+  const maxWidth = pageWidth - margin * 2;
+  let y = 15;
 
+  // ── Title ──
+  doc.setFontSize(18);
+  doc.setFont("helvetica", "bold");
+  doc.text("AI Financial Report", margin, y);
+  y += 12;
+
+  // ── Divider ──
+  doc.setDrawColor(37, 99, 235);
+  doc.setLineWidth(0.8);
+  doc.line(margin, y, pageWidth - margin, y);
+  y += 10;
+
+  // ── Stock Metrics ──
+  doc.setFontSize(13);
+  doc.setFont("helvetica", "bold");
+  doc.text("Stock Metrics", margin, y);
+  y += 8;
+
+  doc.setFontSize(11);
+  doc.setFont("helvetica", "normal");
+  doc.text(`Ticker:       ${data.ticker}`, margin, y); y += 7;
+  doc.text(`Price:        $${data.price}`, margin, y); y += 7;
+  doc.text(`RSI:          ${Number(data.indicators?.RSI).toFixed(2)}`, margin, y); y += 7;
+  doc.text(`MA14:         $${data.indicators?.MA14}`, margin, y); y += 7;
+  doc.text(`Volatility:   ${Number(data.indicators?.volatility).toFixed(4)}`, margin, y); y += 7;
+  doc.text(`Signal:       ${data.signal?.signal}`, margin, y); y += 12;
+
+  // ── Divider ──
+  doc.setDrawColor(200, 200, 200);
+  doc.setLineWidth(0.4);
+  doc.line(margin, y, pageWidth - margin, y);
+  y += 10;
+
+  // ── Sentiment ──
+  doc.setFontSize(13);
+  doc.setFont("helvetica", "bold");
+  doc.text("Market Sentiment", margin, y);
+  y += 8;
+
+  doc.setFontSize(11);
+  doc.setFont("helvetica", "normal");
+  doc.text(`Sentiment:         ${data.sentiment?.sentiment}`, margin, y); y += 7;
+  doc.text(`Score:             ${data.sentiment?.score}`, margin, y); y += 7;
+  doc.text(`Articles Analyzed: ${data.sentiment?.articles_analyzed}`, margin, y); y += 12;
+
+  // ── Divider ──
+  doc.setDrawColor(200, 200, 200);
+  doc.line(margin, y, pageWidth - margin, y);
+  y += 10;
+
+  // ── AI Report ──
+  doc.setFontSize(13);
+  doc.setFont("helvetica", "bold");
+  doc.text("AI Analysis Report", margin, y);
+  y += 8;
+
+  doc.setFontSize(10);
+  doc.setFont("helvetica", "normal");
+  // splitTextToSize fixes truncation — wraps long text
+  const reportLines = doc.splitTextToSize(data.report || "", maxWidth);
+  reportLines.forEach((line) => {
+    if (y > 270) {          // new page if running out of space
+      doc.addPage();
+      y = 15;
+    }
+    doc.text(line, margin, y);
+    y += 6;
+  });
+
+  y += 8;
+
+  // ── Divider ──
+  doc.setDrawColor(200, 200, 200);
+  doc.line(margin, y, pageWidth - margin, y);
+  y += 8;
+
+  // ── Disclaimer ──
+  doc.setFontSize(8);
+  doc.setTextColor(150, 150, 150);
+  doc.text(
+    "Disclaimer: This report is AI-generated for educational purposes only. Not financial advice.",
+    margin, y
+  );
+
+  doc.save(`${data.ticker}_report.pdf`);
+};
 return (
 
 <div className="container">
 
 <header className="header">
 
-<h1>📊 AI Financial Intelligence Platform</h1>
+<h1>Financial Intelligence Agent Platform</h1>
 
-<p>AI powered stock analysis, sentiment detection and market intelligence</p>
+<p>
+AI powered stock analysis, sentiment detection and market intelligence
+</p>
 
 </header>
-
 <div className="searchBox">
 
 <input
@@ -77,6 +158,11 @@ type="text"
 placeholder="Search Stock (AAPL, TSLA, MSFT)"
 value={ticker}
 onChange={(e) => setTicker(e.target.value)}
+onKeyDown={(e) => {
+  if (e.key === "Enter") {
+    analyzeStock();
+  }
+}}
 />
 
 <button onClick={analyzeStock}>
@@ -85,7 +171,13 @@ onChange={(e) => setTicker(e.target.value)}
 
 </div>
 
-{/* Show welcome section before search */}
+{/* ← ADD THIS RIGHT HERE */}
+{error && (
+  <p style={{ color: "red", textAlign: "center", marginTop: "8px" }}>
+    ⚠️ {error}
+  </p>
+)}
+{/* Welcome section */}
 
 {!data && (
 
@@ -114,10 +206,21 @@ onChange={(e) => setTicker(e.target.value)}
 
 <>
 
+{/* AI REPORT */}
+
 <div className="card">
-<h2>AI Summary</h2>
-<p>{data.summary}</p>
+
+<h2>AI Stock Report</h2>
+
+<p style={{ whiteSpace: "pre-line" }}>
+  {data.report}
+</p>
+<button onClick={downloadPDF} className="downloadBtn">
+  Download PDF
+</button>
 </div>
+
+{/* CHART */}
 
 <div className="chartBox">
 
@@ -131,11 +234,21 @@ onChange={(e) => setTicker(e.target.value)}
 
 <XAxis dataKey="day" />
 
-<YAxis />
+<YAxis 
+  domain={[
+    (dataMin) => dataMin - 5,
+    (dataMax) => dataMax + 5
+  ]}
+/>
 
 <Tooltip />
 
-<Line type="monotone" dataKey="price" stroke="#2563eb" strokeWidth={3} />
+<Line
+type="monotone"
+dataKey="price"
+stroke="#2563eb"
+strokeWidth={3}
+/>
 
 </LineChart>
 
@@ -143,16 +256,31 @@ onChange={(e) => setTicker(e.target.value)}
 
 </div>
 
+{/* DASHBOARD */}
+
 <div className="dashboard">
 
 <div className="card">
+
 <h2>Stock Metrics</h2>
-<pre>{JSON.stringify(data.stock_metrics, null, 2)}</pre>
+
+<p><b>Ticker:</b> {data.ticker}</p>
+<p><b>Price:</b> ${data.price}</p>
+<p><b>RSI:</b> {Number(data.indicators?.RSI).toFixed(2)}</p>
+<p><b>Moving Avg (14):</b> {data.indicators?.MA14}</p>
+<p><b>Volatility:</b> {Number(data.indicators?.volatility).toFixed(4)}</p>
+<p><b>Signal:</b> {data.signal?.signal}</p>
+
 </div>
 
 <div className="card">
+
 <h2>Market Sentiment</h2>
-<pre>{JSON.stringify(data.sentiment, null, 2)}</pre>
+
+<p><b>Sentiment:</b> {data.sentiment?.sentiment}</p>
+<p><b>Score:</b> {data.sentiment?.score}</p>
+<p><b>Articles Analyzed:</b> {data.sentiment?.articles_analyzed}</p>
+
 </div>
 
 </div>
@@ -166,5 +294,6 @@ onChange={(e) => setTicker(e.target.value)}
 );
 
 }
+
 
 export default App;

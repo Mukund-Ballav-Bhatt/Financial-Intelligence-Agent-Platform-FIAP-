@@ -2,3 +2,9 @@ yfinance
 requests
 python-dotenv
 pandas
+textblob
+langchain
+langchain-community
+ollama
+fastapi
+uvicorn

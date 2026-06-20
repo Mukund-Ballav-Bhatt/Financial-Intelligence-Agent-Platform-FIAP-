@@ -164,6 +164,9 @@ Scalability:
 Maintainability:
 - Modular code
 - Separate agent files
+- Structured Audit Logging
+- Traceability
+- Error Attribution
 
 Usability:
 - Simple UI
@@ -254,10 +257,19 @@ Frontend + Dashboard
 
 ## 12. Risks & Mitigation
 
-API limits → caching  
-Slow responses → shorter prompts  
-Scope creep → follow PRD  
-Complexity → build incrementally  
+API Limits: Use TTL-based caching.
+
+Slow Responses: Optimize prompts and use parallel execution.
+
+Data Reliability: Use schema validation and circuit breakers.
+
+AI Hallucinations: Use "Grounding" (require source citations).
+
+Security: Use environment variables and sanitize logs.
+
+Scope Creep: Strictly follow PRD milestones.
+
+Complexity: Build incrementally.
 
 ---
 

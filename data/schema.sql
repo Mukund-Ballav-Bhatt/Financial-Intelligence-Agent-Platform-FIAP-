@@ -25,8 +25,8 @@ CREATE TABLE IF NOT EXISTS stock_prices (
     open REAL,                              -- Price when market open today
     high REAL,                              -- Highest price reached today 
     low REAL,                               -- Lowest price reached today 
-    market_price REAL,                      -- Value of company i.e. price * shares 
-    pe__ratio REAL,                         -- Price to Earning Ratio
+    market_cap REAL,                      -- Value of company i.e. price * shares 
+    pe_ratio REAL,                         -- Price to Earning Ratio
     timestamp DATETIME DEFAULT CURRENT_TIMESTAMP,       -- When this data was Fetched
 
     currency TEXT DEFAULT 'USD',
